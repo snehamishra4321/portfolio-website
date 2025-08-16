@@ -1,12 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function Index() {
   const [currentRole, setCurrentRole] = useState(0);
+  const [profileImage, setProfileImage] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  
   const roles = [
     "Machine Learning Engineer",
     "AI Researcher", 
     "LLM Specialist",
-    "Data Science Expert"
+    "Published Researcher"
   ];
 
   useEffect(() => {
@@ -18,6 +21,21 @@ export default function Index() {
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        setProfileImage(e.target?.result as string);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const triggerImageUpload = () => {
+    fileInputRef.current?.click();
   };
 
   return (
@@ -57,6 +75,12 @@ export default function Index() {
         </div>
         <nav className="flex items-center space-x-6">
           <button 
+            onClick={() => scrollToSection('about')}
+            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
+          >
+            About
+          </button>
+          <button 
             onClick={() => scrollToSection('work')}
             className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
           >
@@ -80,64 +104,151 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative z-10 px-6 lg:px-12 py-16 lg:py-24 min-h-screen flex items-center">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
-                Building the Future <br />
-                <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  with AI
-                </span>
-              </h1>
-              <div className="text-2xl lg:text-3xl text-white/80 font-light h-8">
-                <span className="text-cyan-400">{roles[currentRole]}</span>
+          <div className="grid lg:grid-cols-5 gap-12 items-center">
+            {/* Content - takes 3 columns */}
+            <div className="lg:col-span-3 space-y-8">
+              <div className="space-y-4">
+                <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
+                  Hi, I'm <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Sneha</span>
+                </h1>
+                <div className="text-2xl lg:text-3xl text-white/80 font-light h-8">
+                  <span className="text-cyan-400">{roles[currentRole]}</span>
+                </div>
               </div>
+              
+              <p className="text-xl lg:text-2xl text-white/70 leading-relaxed">
+                From Chennai to Austin, building AI solutions that matter. Currently crafting 
+                <span className="text-cyan-400 font-semibold"> LLMs</span> and 
+                <span className="text-purple-400 font-semibold"> RAG systems</span> at 
+                <span className="text-emerald-400 font-semibold"> Wizerr AI</span>.
+              </p>
+
+              <div className="flex flex-wrap gap-6 pt-4">
+                <a 
+                  href="https://linkedin.com/in/s-m1/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105"
+                >
+                  Connect on LinkedIn
+                </a>
+                <a 
+                  href="https://github.com/snehamishra4321" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300"
+                >
+                  View GitHub
+                </a>
+              </div>
+            </div>
+
+            {/* Profile Image - takes 2 columns */}
+            <div className="lg:col-span-2 flex justify-center">
+              <div className="relative group">
+                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+                  {profileImage ? (
+                    <img 
+                      src={profileImage} 
+                      alt="Sneha Mishra" 
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="text-center">
+                      <div className="w-24 h-24 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                      </div>
+                      <p className="text-white/60 text-lg">Click to upload your photo</p>
+                    </div>
+                  )}
+                  
+                  {/* Upload overlay */}
+                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer" onClick={triggerImageUpload}>
+                    <div className="text-center">
+                      <svg className="w-12 h-12 text-white mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                      </svg>
+                      <p className="text-white font-semibold">Upload Photo</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <input
+                  type="file"
+                  ref={fileInputRef}
+                  onChange={handleImageUpload}
+                  accept="image/*"
+                  className="hidden"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 pt-16">
+            <div className="text-center">
+              <div className="text-3xl lg:text-4xl font-bold text-cyan-400 mb-2">5+</div>
+              <div className="text-white/70 text-sm">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl lg:text-4xl font-bold text-purple-400 mb-2">1M+</div>
+              <div className="text-white/70 text-sm">Components Indexed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl lg:text-4xl font-bold text-emerald-400 mb-2">100K+</div>
+              <div className="text-white/70 text-sm">Documents in RAG</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl lg:text-4xl font-bold text-pink-400 mb-2">Nature</div>
+              <div className="text-white/70 text-sm">Published</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Me Section */}
+      <section id="about" className="relative z-10 px-6 lg:px-12 py-24">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16 text-center">
+            My <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Journey</span>
+          </h2>
+          
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10">
+            <div className="prose prose-lg prose-invert max-w-none">
+              <p className="text-white/80 text-lg leading-relaxed mb-6">
+                My journey started in Chennai, India, where I earned my degree in Mechanical Engineering. 
+                But I was always drawn to the world of data and algorithms. That curiosity led me to 
+                HCLTech, where I discovered my passion for transforming raw data into meaningful insights.
+              </p>
+              
+              <p className="text-white/80 text-lg leading-relaxed mb-6">
+                In 2022, I took a leap of faith and moved to Texas A&M University to pursue my Master's 
+                in Data Science. It was here that I dove deep into AI research, working on everything from 
+                cancer detection using computer vision to building recommendation systems that are now 
+                used by the university's research administration.
+              </p>
+              
+              <p className="text-white/80 text-lg leading-relaxed mb-6">
+                The highlight? Getting published in <span className="text-purple-400 font-semibold">Nature's NPJ Precision Oncology</span> 
+                for my work on breast cancer biomarker detection. It felt surreal seeing months of research 
+                contribute to potentially saving lives.
+              </p>
+              
+              <p className="text-white/80 text-lg leading-relaxed">
+                Today, I'm at Wizerr AI in Austin, fine-tuning LLMs and building RAG systems that help 
+                engineers find the right semiconductor components. It's amazing how AI can make even the 
+                most technical searches feel intuitive. When I'm not coding, you'll find me exploring Austin's 
+                food scene or planning my next travel adventure.
+              </p>
             </div>
             
-            <p className="text-xl lg:text-2xl text-white/70 max-w-4xl leading-relaxed">
-              Machine Learning Engineer at <span className="text-cyan-400 font-semibold">Wizerr AI</span>, specializing in 
-              <span className="text-purple-400 font-semibold"> LLMs</span>, 
-              <span className="text-emerald-400 font-semibold"> RAG systems</span>, and 
-              <span className="text-pink-400 font-semibold"> multimodal AI</span>. 
-              5+ years building scalable AI solutions in production.
-            </p>
-
-            <div className="flex flex-wrap gap-6 pt-4">
-              <a 
-                href="https://linkedin.com/in/s-m1/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105"
-              >
-                Connect on LinkedIn
-              </a>
-              <a 
-                href="https://github.com/snehamishra4321" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300"
-              >
-                View GitHub
-              </a>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 pt-12">
-              <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-cyan-400 mb-2">5+</div>
-                <div className="text-white/70 text-sm">Years Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-purple-400 mb-2">1M+</div>
-                <div className="text-white/70 text-sm">Components Indexed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-emerald-400 mb-2">100K+</div>
-                <div className="text-white/70 text-sm">Documents in RAG</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-pink-400 mb-2">Nature</div>
-                <div className="text-white/70 text-sm">Published</div>
-              </div>
+            <div className="flex flex-wrap gap-4 mt-8 pt-6 border-t border-white/10">
+              <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">🇮🇳 From Chennai</span>
+              <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">🎓 Texas A&M Alum</span>
+              <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">🤖 AI Enthusiast</span>
+              <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">📚 Published Researcher</span>
             </div>
           </div>
         </div>
@@ -317,7 +428,8 @@ export default function Index() {
           </h2>
           
           <p className="text-xl text-white/70 mb-12 leading-relaxed">
-            Always excited to discuss AI research, machine learning projects, or potential collaborations.
+            Always excited to discuss AI research, machine learning projects, or potential collaborations. 
+            Or if you just want to chat about the best Austin food spots!
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
