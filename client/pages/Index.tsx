@@ -856,7 +856,7 @@ export default function Index() {
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
                   <span className="text-white/80">
-                    Computer Vision in Healthcare
+                    Deep Learning Applications in Healthcare
                   </span>
                 </li>
               </ul>
