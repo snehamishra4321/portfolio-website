@@ -614,20 +614,20 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">Developed Virtual Historian Chatbot</span> enabling contextual search across 100K+ digitized family history books.
+                    Pioneered the <span className="text-purple-400 font-semibold">Virtual Historian Chatbot</span>, an innovative AI system that makes 100K+ digitized family history books searchable through natural conversation.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Engineered a <span className="text-purple-400 font-semibold">hybrid RAG system</span> that blended structured metadata with semantic search for rich historical queries.
+                    Architected a sophisticated <span className="text-purple-400 font-semibold">hybrid RAG system</span> that intelligently combines structured genealogy metadata with semantic search capabilities for rich historical discovery.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual awareness.</span>
+                    Explored cutting-edge database architectures, comparing graph versus vector approaches to optimize relational understanding and improve <span className="text-purple-400 font-semibold">contextual awareness</span> in historical narratives.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Implemented <span className="text-purple-400 font-semibold">multimodal document understanding,</span> connecting text and images for genealogy artifacts.
+                    Advanced <span className="text-purple-400 font-semibold">multimodal document understanding</span> by seamlessly connecting textual records with visual genealogy artifacts for comprehensive family history exploration.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      🎯 Presented research outcomes to senior leadership, influencing future product directions.
+                      Delivered compelling research presentations to senior leadership, directly shaping the strategic direction of future genealogy products.
                     </p>
                   </div>
                 </div>
