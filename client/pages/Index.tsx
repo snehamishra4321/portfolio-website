@@ -648,6 +648,7 @@ export default function Index() {
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">ElasticSearch</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Context Engineering</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Cross-encoder</span>
                     </div>
                   </div>
