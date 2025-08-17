@@ -43,10 +43,7 @@ export default function Index() {
   };
 
   return (
-    <div className={`min-h-screen relative overflow-hidden ${isDarkTheme
-      ? 'bg-black'
-      : 'bg-gradient-to-br from-white via-gray-50 to-slate-100'
-    }`}>
+    <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Dynamic AI-inspired background */}
       <div className="fixed inset-0">
         {/* Neural network nodes */}
@@ -623,7 +620,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-pink-400 font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
+                    <h5 className="text-pink-400 font-semibold mb-2">☁��� Cloud & Infrastructure</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">AWS</span>
                       <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">FAISS</span>
