@@ -408,7 +408,7 @@ export default function Index() {
       {/* About Me Section */}
       <section id="about" className="relative z-10 px-6 lg:px-12 py-24">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16 text-center">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
             About{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Me
@@ -500,17 +500,18 @@ export default function Index() {
       <section id="work" className="relative z-10 px-6 lg:px-12 py-24">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
-            💡 Work &{" "}
+            Work &{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Impact
             </span>
+            {" "}💡
           </h2>
 
           {/* Wizerr AI - Current Role */}
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-2">
               Machine Learning Engineer at{" "}
-              <span className="text-cyan-400">Wizerr AI</span>
+              <span className="text-cyan-400 text-3xl">Wizerr AI</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">2024 – Present</p>
             <div className="grid lg:grid-cols-2 gap-6">
