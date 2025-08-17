@@ -621,12 +621,7 @@ export default function Index() {
                     <span className="text-cyan-400 font-semibold">Designed</span> <span className="text-cyan-400 font-semibold">agentic</span> search platforms that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built{" "}
-                    <span className="text-cyan-400 font-semibold">
-                      domain-adapted language models
-                    </span>{" "}
-                    with hybrid retrieval systems powering thousands of daily
-                    queries with higher contextual accuracy.
+                    Built <span className="text-cyan-400 font-semibold">domain-adapted</span> language models with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Delivered{" "}
