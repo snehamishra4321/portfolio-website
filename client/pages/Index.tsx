@@ -116,10 +116,20 @@ export default function Index() {
 
       {/* Header */}
       <header className="relative z-10 flex items-center justify-between p-6 lg:px-12">
-        <div className="text-white text-xl font-semibold tracking-wide">
+        <div className={`text-xl font-semibold tracking-wide ${isDarkTheme ? 'text-white' : 'text-gray-900'}`}>
           Sneha Mishra
         </div>
         <nav className="flex items-center space-x-6">
+          <button
+            onClick={() => setIsDarkTheme(!isDarkTheme)}
+            className={`p-2 rounded-full transition-all duration-300 ${
+              isDarkTheme
+                ? 'bg-white/10 text-white hover:bg-white/20'
+                : 'bg-gray-900/10 text-gray-900 hover:bg-gray-900/20'
+            }`}
+          >
+            {isDarkTheme ? '☀️' : '🌙'}
+          </button>
           <button
             onClick={() => scrollToSection("about")}
             className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
