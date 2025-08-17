@@ -618,11 +618,7 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-cyan-400 font-semibold">
-                      Designed agentic search platforms
-                    </span>{" "}
-                    that transform semiconductor documentation into interactive,
-                    engineer-grade intelligence.
+                    <span className="text-cyan-400 font-semibold">Designed</span> <span className="text-cyan-400 font-semibold">agentic</span> search platforms that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Built{" "}
