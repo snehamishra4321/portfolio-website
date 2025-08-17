@@ -492,12 +492,6 @@ export default function Index() {
             <span className="bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium">
               💃 Dance Enthusiast
             </span>
-            <span className="bg-green-500/20 text-green-300 px-4 py-2 rounded-full text-sm font-medium">
-              🧩 Puzzle Solver
-            </span>
-            <span className="bg-red-500/20 text-red-300 px-4 py-2 rounded-full text-sm font-medium">
-              �� Hidden Places Seeker
-            </span>
           </div>
         </div>
       </section>
