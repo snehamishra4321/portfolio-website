@@ -43,7 +43,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-black relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 relative overflow-hidden">
       {/* Dynamic AI-inspired background */}
       <div className="fixed inset-0">
         {/* Neural network nodes */}
