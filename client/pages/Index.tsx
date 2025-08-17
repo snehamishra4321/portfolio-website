@@ -556,7 +556,7 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-white font-semibold mb-2">🧠 LLM & Foundation Models</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">🧠 Foundation Models (LLMs, Multimodal)</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LLM Fine-tuning</span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Foundation Models</span>
@@ -577,7 +577,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">💻 Programming & Tools</h5>
+                    <h5 className="text-white font-semibold mb-2">�� Programming & Tools</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">PyTorch</span>
