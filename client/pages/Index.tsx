@@ -407,79 +407,85 @@ export default function Index() {
 
       {/* About Me Section */}
       <section id="about" className="relative z-10 px-6 lg:px-12 py-24">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16 text-center">
-            My{" "}
+            About{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Journey
+              Me
             </span>
           </h2>
 
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10">
-            <div className="prose prose-lg prose-invert max-w-none">
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
-                I'm Sneha Mishra, a Machine Learning Engineer with over 5 years
-                of experience who loves building AI systems that aren't just
-                clever, but reliable, scalable, and genuinely useful. At Wizerr
-                AI, I design agentic, chat-based search systems for
-                semiconductor intelligence — architecting ML pipelines,
-                fine-tuning models, and putting guardrails in place so these
-                systems stay robust and adaptable as they grow.
-              </p>
+          <div className="grid lg:grid-cols-3 gap-8 items-start">
+            {/* Left Column - Main Story */}
+            <div className="lg:col-span-2">
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <p className="text-white/80 text-lg leading-relaxed mb-6">
+                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing the best view on a mountain trail.
+                </p>
 
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
-                Before this, I worked at HCLTech on high-throughput data
-                platforms and ML workflows processing petabytes of data,
-                sharpening my foundation in large-scale pipelines and system
-                architecture. At Ancestry, I experimented with
-                retrieval-augmented generation pipelines and recommendation
-                systems, contributing to an AI-driven historian chatbot project
-                — a true learning ground where I saw how traditional NLP
-                thinking expands into today's LLM-powered world.
-              </p>
+                <p className="text-white/80 text-lg leading-relaxed mb-6">
+                  Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has guided me through building large-scale systems in industry, diving deep into research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>.
+                </p>
 
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
-                Earlier, during two years of research at Texas A&M University, I
-                explored everything from cancer imaging to scholar
-                recommendations to healthcare AI. Those years rooted me in
-                classical ML and taught me how to adapt across domains. As the
-                field has evolved, so have I — carrying forward the curiosity
-                and rigor of those foundations while embracing the possibilities
-                of modern, agentic AI.
-              </p>
+                <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
+                  <p className="text-white font-medium text-lg italic">
+                    "I aim to create systems that are both thoughtful and practical, while still leaving space for exploration and creativity."
+                  </p>
+                </div>
 
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
-                At the heart of my work is a simple belief:{" "}
-                <span className="text-cyan-400 font-semibold">
-                  build things that matter, and build them to last
-                </span>
-                .
-              </p>
-
-              <p className="text-white/80 text-lg leading-relaxed">
-                Outside of work, I find balance in movement and exploration —
-                whether it's dancing, painting landscapes, hiking mountains, or
-                uncovering hidden places that make you stop and see the world
-                differently. Those small adventures fuel the same spirit I bring
-                to my projects: curious, playful, and creative, yet always
-                grounded in a desire to make something meaningful.
-              </p>
+                <p className="text-white/80 text-lg leading-relaxed">
+                  Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover.
+                </p>
+              </div>
             </div>
 
-            <div className="flex flex-wrap gap-4 mt-8 pt-6 border-t border-white/10">
-              <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">
-                🎨 Creative Explorer
-              </span>
-              <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
-                🎓 Texas A&M Alum
-              </span>
-              <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">
-                🤖 AI Systems Builder
-              </span>
-              <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
-                📚 Published Researcher
-              </span>
+            {/* Right Column - Key Belief & Values */}
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-2xl p-6 border border-cyan-400/20">
+                <h3 className="text-xl font-bold text-white mb-4">Core Belief</h3>
+                <p className="text-cyan-400 font-semibold text-lg italic leading-relaxed">
+                  "Build things that matter, and build them to last"
+                </p>
+              </div>
+
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">What Drives Me</h3>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                    <span className="text-white/80 text-sm">Solving complex puzzles</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                    <span className="text-white/80 text-sm">Building scalable systems</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                    <span className="text-white/80 text-sm">Exploring new perspectives</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+                    <span className="text-white/80 text-sm">Creative expression</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          {/* Bottom - Personality Tags */}
+          <div className="flex flex-wrap justify-center gap-4 mt-12 pt-8 border-t border-white/10">
+            <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">
+              🎨 Creative Explorer
+            </span>
+            <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
+              🎓 Texas A&M Alum
+            </span>
+            <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">
+              🤖 AI Systems Builder
+            </span>
+            <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
+              📚 Published Researcher
+            </span>
           </div>
         </div>
       </section>
