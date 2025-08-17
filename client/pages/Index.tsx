@@ -861,7 +861,7 @@ export default function Index() {
               Data & Analytics Engineer / Product Owner at{" "}
               <span className="text-emerald-400 text-3xl">HCLTech</span>
             </h3>
-            <p className="text-white/60 text-lg mb-8">2021 – 2022</p>
+            <p className="text-white/60 text-lg mb-8">2021 ��� 2022</p>
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
@@ -876,12 +876,7 @@ export default function Index() {
                     Owned <span className="text-emerald-400 font-semibold">product</span> strategy and delivery, bridging technical teams with business stakeholders.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove{" "}
-                    <span className="text-emerald-400 font-semibold">
-                      enterprise application
-                    </span>{" "}
-                    rollouts, ensuring performance, scalability, and
-                    maintainability.
+                    Drove <span className="text-emerald-400 font-semibold">enterprise</span> application rollouts, ensuring performance, scalability, and maintainability.
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
