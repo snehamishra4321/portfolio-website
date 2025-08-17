@@ -168,36 +168,36 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Expertise Highlights - Enhanced Asymmetric Sliding Layout */}
-          <div className="relative pt-12 pb-6 max-w-5xl mx-auto">
-            {/* Top Row - Dramatic Offset */}
-            <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 mb-6">
-              <div className="lg:w-5/12 lg:ml-0 group">
-                <div className="relative bg-gradient-to-r from-cyan-500/3 to-cyan-500/8 rounded-lg p-4 border-l-2 border-cyan-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
+          {/* Expertise Highlights - Balanced Asymmetric Layout */}
+          <div className="relative pt-10 pb-4 max-w-4xl mx-auto">
+            {/* Top Row */}
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 mb-4">
+              <div className="lg:w-2/5 lg:ml-0 group">
+                <div className="relative bg-gradient-to-r from-cyan-500/3 to-cyan-500/8 rounded-lg p-3 border-l-2 border-cyan-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
                   <div className="flex items-start space-x-3">
-                    <div className="w-7 h-7 bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
-                      <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-6 h-6 bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                       </svg>
                     </div>
                     <div className="opacity-0 animate-[slideIn_0.8s_ease-out_0.2s_forwards]">
-                      <h3 className="text-base font-medium text-white mb-1">Intelligent Agentic Systems</h3>
+                      <h3 className="text-sm font-medium text-white mb-1">Intelligent Agentic Systems</h3>
                       <p className="text-white/60 text-xs">Designing AI that adapts and scales</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="lg:w-5/12 lg:ml-auto lg:mr-8 lg:mt-16 group">
-                <div className="relative bg-gradient-to-r from-purple-500/3 to-purple-500/8 rounded-lg p-4 border-l-2 border-purple-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
+              <div className="lg:w-2/5 lg:ml-auto lg:mr-4 lg:mt-8 group">
+                <div className="relative bg-gradient-to-r from-purple-500/3 to-purple-500/8 rounded-lg p-3 border-l-2 border-purple-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
                   <div className="flex items-start space-x-3">
-                    <div className="w-7 h-7 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
-                      <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-6 h-6 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                       </svg>
                     </div>
                     <div className="opacity-0 animate-[slideIn_0.8s_ease-out_0.4s_forwards]">
-                      <h3 className="text-base font-medium text-white mb-1">Search & Retrieval</h3>
+                      <h3 className="text-sm font-medium text-white mb-1">Search & Retrieval</h3>
                       <p className="text-white/60 text-xs">RAG pipelines for relevance and impact</p>
                     </div>
                   </div>
@@ -205,34 +205,34 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Bottom Row - Dramatic Reverse Offset */}
-            <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
-              <div className="lg:w-5/12 lg:ml-16 lg:-mt-8 group">
-                <div className="relative bg-gradient-to-r from-emerald-500/3 to-emerald-500/8 rounded-lg p-4 border-l-2 border-emerald-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
+            {/* Bottom Row - Mirrored Layout */}
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+              <div className="lg:w-2/5 lg:ml-8 lg:-mt-4 group">
+                <div className="relative bg-gradient-to-r from-emerald-500/3 to-emerald-500/8 rounded-lg p-3 border-l-2 border-emerald-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
                   <div className="flex items-start space-x-3">
-                    <div className="w-7 h-7 bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
-                      <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-6 h-6 bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                       </svg>
                     </div>
                     <div className="opacity-0 animate-[slideIn_0.8s_ease-out_0.6s_forwards]">
-                      <h3 className="text-base font-medium text-white mb-1">Recommendations</h3>
+                      <h3 className="text-sm font-medium text-white mb-1">Recommendations</h3>
                       <p className="text-white/60 text-xs">User-facing intelligence through RecSys</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="lg:w-5/12 lg:ml-0 lg:mt-12 group">
-                <div className="relative bg-gradient-to-r from-pink-500/3 to-pink-500/8 rounded-lg p-4 border-l-2 border-pink-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
+              <div className="lg:w-2/5 lg:ml-auto lg:mt-4 group">
+                <div className="relative bg-gradient-to-r from-pink-500/3 to-pink-500/8 rounded-lg p-3 border-l-2 border-pink-400/60 transform transition-transform duration-700 ease-out hover:translate-x-1">
                   <div className="flex items-start space-x-3">
-                    <div className="w-7 h-7 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
-                      <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    <div className="w-6 h-6 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 opacity-90">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                     </div>
                     <div className="opacity-0 animate-[slideIn_0.8s_ease-out_0.8s_forwards]">
-                      <h3 className="text-base font-medium text-white mb-1">Shipping AI Solutions</h3>
+                      <h3 className="text-sm font-medium text-white mb-1">Context Engineering & Deployment</h3>
                       <p className="text-white/60 text-xs">From research to production platforms</p>
                     </div>
                   </div>
