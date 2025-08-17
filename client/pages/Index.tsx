@@ -132,19 +132,31 @@ export default function Index() {
           </button>
           <button
             onClick={() => scrollToSection("about")}
-            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
+            className={`transition-all duration-300 text-sm font-medium ${
+              isDarkTheme
+                ? 'text-white/80 hover:text-cyan-400'
+                : 'text-gray-700 hover:text-cyan-600'
+            }`}
           >
             About
           </button>
           <button
             onClick={() => scrollToSection("work")}
-            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
+            className={`transition-all duration-300 text-sm font-medium ${
+              isDarkTheme
+                ? 'text-white/80 hover:text-cyan-400'
+                : 'text-gray-700 hover:text-cyan-600'
+            }`}
           >
             Work
           </button>
           <button
             onClick={() => scrollToSection("research")}
-            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
+            className={`transition-all duration-300 text-sm font-medium ${
+              isDarkTheme
+                ? 'text-white/80 hover:text-cyan-400'
+                : 'text-gray-700 hover:text-cyan-600'
+            }`}
           >
             Research
           </button>
