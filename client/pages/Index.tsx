@@ -470,7 +470,7 @@ export default function Index() {
                 </p>
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
-                  <p className="text-white font-medium text-lg italic">
+                  <p className={`font-medium text-lg italic ${isDarkTheme ? 'text-white' : 'text-gray-800'}`}>
                     "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
                   </p>
                 </div>
