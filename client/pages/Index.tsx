@@ -769,11 +769,7 @@ export default function Index() {
                     Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual</span> awareness.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Implemented{" "}
-                    <span className="text-purple-400 font-semibold">
-                      multimodal document understanding,
-                    </span>{" "}
-                    connecting text and images for genealogy artifacts.
+                    Implemented <span className="text-purple-400 font-semibold">multimodal</span> document understanding, connecting text and images for genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
