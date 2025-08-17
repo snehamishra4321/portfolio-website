@@ -829,15 +829,15 @@ export default function Index() {
               </div>
             </div>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              <span className="text-purple-400 font-semibold">Fine-tuning and experimentation project</span> for domain adaptation
+              Applied <span className="text-purple-400 font-semibold">fine-tuning and experimentation</span> methods for domain adaptation
               on Lamin B1 stained breast cancer tissue images investigating extreme nuclear wrinkling as a cancer biomarker.
             </p>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              Implemented multi-class classification using <span className="text-cyan-400 font-medium">Vision Transformers, ResNet50, and InceptionV3</span>,
-              augmenting datasets and fine-tuning AI models for medical imaging applications.
+              Implemented multi-class classification through <span className="text-cyan-400 font-medium">dataset augmentation</span> and
+              <span className="text-cyan-400 font-medium"> fine-tuning</span> of Vision Transformers, ResNet50, and InceptionV3 for medical imaging applications.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
-              Additional work included fine-tuning conditional-GAN (StyleGAN2) for domain-adapted synthetic breast cancer imagery
+              Additional work included <span className="text-purple-400 font-semibold">fine-tuning conditional-GAN</span> (StyleGAN2) for domain-adapted synthetic breast cancer imagery
               and customizing V-Net model for brain CT/MRI segmentation achieving 0.87 Dice coefficient.
             </p>
           </div>
