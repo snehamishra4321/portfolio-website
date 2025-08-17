@@ -766,11 +766,7 @@ export default function Index() {
                     Engineered a <span className="text-purple-400 font-semibold">hybrid</span> RAG system that blended structured metadata with semantic search for rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored graph vs. vector databases, balancing relational
-                    structure with scalable neural retrieval to improve{" "}
-                    <span className="text-purple-400 font-semibold">
-                      contextual awareness.
-                    </span>
+                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual</span> awareness.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Implemented{" "}
