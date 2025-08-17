@@ -274,7 +274,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
                 onClick={() => handleBoxClick('box1')}
                 style={{
-                  animation: hasAnimated ? 'fadeUp 0.8s ease-out 0.2s forwards' : 'none'
+                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  opacity: hasAnimated ? 1 : 0,
+                  transition: hasAnimated ? 'all 0.6s ease-out 0.2s' : 'none'
                 }}
               >
                 <div className="relative bg-gradient-to-r from-cyan-500/5 to-cyan-500/10 rounded-xl p-4 border-l-4 border-cyan-400/70 h-20">
@@ -297,7 +299,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
                 onClick={() => handleBoxClick('box2')}
                 style={{
-                  animation: hasAnimated ? 'fadeUp 0.8s ease-out 0.4s forwards' : 'none'
+                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  opacity: hasAnimated ? 1 : 0,
+                  transition: hasAnimated ? 'all 0.6s ease-out 0.4s' : 'none'
                 }}
               >
                 <div className="relative bg-gradient-to-r from-purple-500/5 to-purple-500/10 rounded-xl p-4 border-l-4 border-purple-400/70 h-20">
@@ -323,7 +327,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
                 onClick={() => handleBoxClick('box3')}
                 style={{
-                  animation: hasAnimated ? 'fadeUp 0.8s ease-out 0.6s forwards' : 'none'
+                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  opacity: hasAnimated ? 1 : 0,
+                  transition: hasAnimated ? 'all 0.6s ease-out 0.6s' : 'none'
                 }}
               >
                 <div className="relative bg-gradient-to-r from-emerald-500/5 to-emerald-500/10 rounded-xl p-4 border-l-4 border-emerald-400/70 h-20">
@@ -346,7 +352,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
                 onClick={() => handleBoxClick('box4')}
                 style={{
-                  animation: hasAnimated ? 'fadeUp 0.8s_ease-out_0.8s_forwards' : 'none'
+                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  opacity: hasAnimated ? 1 : 0,
+                  transition: hasAnimated ? 'all 0.6s ease-out 0.8s' : 'none'
                 }}
               >
                 <div className="relative bg-gradient-to-r from-pink-500/5 to-pink-500/10 rounded-xl p-4 border-l-4 border-pink-400/70 h-20">
@@ -413,6 +421,7 @@ export default function Index() {
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Me
             </span>
+            {" "}💫
           </h2>
 
           <div className="grid lg:grid-cols-3 gap-8 items-start">
