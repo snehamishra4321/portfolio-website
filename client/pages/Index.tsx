@@ -287,8 +287,8 @@ export default function Index() {
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className={`text-base font-bold mb-1 ${isDarkTheme ? 'text-white' : 'text-gray-900'}`}>Intelligent Agentic Systems</h3>
-                      <p className={`text-sm italic ${isDarkTheme ? 'text-white/70' : 'text-gray-600'}`}>Designing AI that adapts and scales</p>
+                      <h3 className="text-base font-bold text-white mb-1">Intelligent Agentic Systems</h3>
+                      <p className="text-white/70 text-sm italic">Designing AI that adapts and scales</p>
                     </div>
                   </div>
                 </div>
