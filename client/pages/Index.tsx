@@ -556,45 +556,45 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">🧠 LLM & Foundation Models</h5>
+                    <h5 className="text-white font-semibold mb-2">🧠 LLM & Foundation Models</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LLM Fine-tuning</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Foundation Models</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">State-of-the-Art Models</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Context Engineering</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Prompt Engineering</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LLM Systems Optimization</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LLM Fine-tuning</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Foundation Models</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">State-of-the-Art Models</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Context Engineering</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Prompt Engineering</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LLM Systems Optimization</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">🤖 Agentic & Search Systems</h5>
+                    <h5 className="text-white font-semibold mb-2">🤖 Agentic & Search Systems</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Agentic Systems</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">MCP Servers</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Hybrid Retrieval</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Long Context Search</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">State & Memory Mgmt</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agentic Systems</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">MCP Servers</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Hybrid Retrieval</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Long Context Search</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">State & Memory Mgmt</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">💻 Programming & Tools</h5>
+                    <h5 className="text-white font-semibold mb-2">💻 Programming & Tools</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Python</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">PyTorch</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">TensorFlow</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Docker</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">MLflow</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">LangChain</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">PyTorch</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">TensorFlow</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Docker</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">MLflow</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">LangChain</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-pink-400 font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
+                    <h5 className="text-white font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">AWS</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">FAISS</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Vector Databases</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Databricks</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">AWS</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">FAISS</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Pinecone</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Vector Databases</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Databricks</span>
                     </div>
                   </div>
                 </div>
