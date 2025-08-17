@@ -421,7 +421,7 @@ export default function Index() {
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Me
             </span>
-            {" "}💫
+            {" "}💼
           </h2>
 
           <div className="grid lg:grid-cols-3 gap-8 items-start">
