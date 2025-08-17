@@ -517,6 +517,9 @@ export default function Index() {
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 backdrop-blur-sm rounded-2xl p-8 border border-cyan-400/20">
+                <h4 className="text-lg font-bold text-white mb-4 flex items-center">
+                  🎩 Wearing Multiple Hats
+                </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
                     <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
@@ -528,7 +531,7 @@ export default function Index() {
                     Delivered <span className="text-cyan-400 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built reliable evaluation systems for chat across various scenarios with strong guardrails for production use cases.
+                    Built <span className="text-cyan-400 font-semibold">reliable evaluation systems</span> for chat across various scenarios with strong guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
