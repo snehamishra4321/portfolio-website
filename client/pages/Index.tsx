@@ -734,6 +734,24 @@ export default function Index() {
             </span>
           </h2>
 
+          {/* Research Experience */}
+          <div className="bg-gradient-to-r from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-purple-400/20 mb-12">
+            <h3 className="text-2xl font-bold text-white mb-2">
+              Research Experience at{" "}
+              <span className="text-purple-400">Texas A&M University</span>
+            </h3>
+            <p className="text-white/60 text-lg mb-6">2022 – 2024</p>
+            <p className="text-white/80 text-lg leading-relaxed mb-4">
+              Conducted computational research in AI/ML applications for biomedical imaging and mechanobiology,
+              bridging computer science with healthcare innovation.
+            </p>
+            <p className="text-white/80 text-lg leading-relaxed">
+              Developed deep learning models for medical image analysis, contributing to breakthrough research
+              in cancer biomarker detection and cellular mechanics.
+            </p>
+          </div>
+
+          {/* Published Research */}
           <div className="bg-gradient-to-r from-purple-500/10 to-cyan-500/10 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-purple-500/20 mb-12">
             <div className="flex items-center space-x-4 mb-6">
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full flex items-center justify-center">
@@ -760,11 +778,18 @@ export default function Index() {
                 </p>
               </div>
             </div>
+            <p className="text-white/70 text-lg leading-relaxed mb-4">
+              <span className="text-purple-400 font-semibold">Advanced computer vision research</span> investigating extreme nuclear wrinkling
+              as a novel cancer biomarker in breast cancer tissues using Lamin B1 stained imaging.
+            </p>
+            <p className="text-white/70 text-lg leading-relaxed mb-4">
+              Implemented and compared state-of-the-art deep learning architectures including
+              <span className="text-cyan-400 font-medium"> Vision Transformers, ResNet50, and InceptionV3</span> for multi-class
+              classification tasks in medical imaging.
+            </p>
             <p className="text-white/70 text-lg leading-relaxed">
-              Implemented multi-class classification on Lamin B1 stained imaging
-              for breast cancer tissues, investigating extreme nuclear wrinkling
-              as a cancer biomarker using Vision Transformers, ResNet50, and
-              InceptionV3 models.
+              Contributed to groundbreaking research with potential clinical applications for early cancer detection
+              and personalized treatment strategies.
             </p>
           </div>
 
