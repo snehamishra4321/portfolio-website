@@ -118,31 +118,19 @@ export default function Index() {
         <nav className="flex items-center space-x-6">
           <button
             onClick={() => scrollToSection("about")}
-            className={`transition-all duration-300 text-sm font-medium ${
-              isDarkTheme
-                ? 'text-white/80 hover:text-cyan-400'
-                : 'text-gray-700 hover:text-cyan-600'
-            }`}
+            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
           >
             About
           </button>
           <button
             onClick={() => scrollToSection("work")}
-            className={`transition-all duration-300 text-sm font-medium ${
-              isDarkTheme
-                ? 'text-white/80 hover:text-cyan-400'
-                : 'text-gray-700 hover:text-cyan-600'
-            }`}
+            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
           >
             Work
           </button>
           <button
             onClick={() => scrollToSection("research")}
-            className={`transition-all duration-300 text-sm font-medium ${
-              isDarkTheme
-                ? 'text-white/80 hover:text-cyan-400'
-                : 'text-gray-700 hover:text-cyan-600'
-            }`}
+            className="text-white/80 hover:text-cyan-400 transition-all duration-300 text-sm font-medium"
           >
             Research
           </button>
