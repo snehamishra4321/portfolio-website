@@ -153,7 +153,7 @@ export default function Index() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm{" "}
                   <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Sneha
+                    Sneha!
                   </span>
                 </h1>
                 <div className="text-2xl lg:text-3xl text-white/80 font-light">
