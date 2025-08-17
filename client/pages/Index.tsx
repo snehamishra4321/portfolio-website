@@ -256,7 +256,7 @@ export default function Index() {
                           />
                         </svg>
                       </div>
-                      <p className="text-white/60 text-lg">
+                      <p className={`text-lg ${isDarkTheme ? 'text-white/60' : 'text-gray-600'}`}>
                         Click to upload your photo
                       </p>
                     </div>
