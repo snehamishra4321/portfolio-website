@@ -1,23 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
 export default function Index() {
-  const [currentRole, setCurrentRole] = useState(0);
   const [profileImage, setProfileImage] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
-  
-  const roles = [
-    "Machine Learning Engineer",
-    "AI Researcher", 
-    "LLM Specialist",
-    "Published Researcher"
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentRole((prev) => (prev + 1) % roles.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
@@ -111,15 +96,15 @@ export default function Index() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Sneha</span>
                 </h1>
-                <div className="text-2xl lg:text-3xl text-white/80 font-light h-8">
-                  <span className="text-cyan-400">{roles[currentRole]}</span>
+                <div className="text-2xl lg:text-3xl text-white/80 font-light">
+                  <span className="text-cyan-400">Machine Learning Engineer</span>
                 </div>
               </div>
-              
+
               <p className="text-xl lg:text-2xl text-white/70 leading-relaxed">
-                From Chennai to Austin, building AI solutions that matter. Currently crafting 
-                <span className="text-cyan-400 font-semibold"> LLMs</span> and 
-                <span className="text-purple-400 font-semibold"> RAG systems</span> at 
+                Building AI systems that aren't just clever, but reliable, scalable, and genuinely useful.
+                Currently designing <span className="text-cyan-400 font-semibold">agentic search systems</span> and
+                <span className="text-purple-400 font-semibold"> ML pipelines</span> at
                 <span className="text-emerald-400 font-semibold"> Wizerr AI</span>.
               </p>
 
@@ -146,7 +131,7 @@ export default function Index() {
             {/* Profile Image - takes 2 columns */}
             <div className="lg:col-span-2 flex justify-center">
               <div className="relative group">
-                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center">
                   {profileImage ? (
                     <img 
                       src={profileImage} 
@@ -218,36 +203,30 @@ export default function Index() {
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10">
             <div className="prose prose-lg prose-invert max-w-none">
               <p className="text-white/80 text-lg leading-relaxed mb-6">
-                My journey started in Chennai, India, where I earned my degree in Mechanical Engineering. 
-                But I was always drawn to the world of data and algorithms. That curiosity led me to 
-                HCLTech, where I discovered my passion for transforming raw data into meaningful insights.
+                I'm Sneha Mishra, a Machine Learning Engineer with over 5 years of experience who loves building AI systems that aren't just clever, but reliable, scalable, and genuinely useful. At Wizerr AI, I design agentic, chat-based search systems for semiconductor intelligence — architecting ML pipelines, fine-tuning models, and putting guardrails in place so these systems stay robust and adaptable as they grow.
               </p>
-              
+
               <p className="text-white/80 text-lg leading-relaxed mb-6">
-                In 2022, I took a leap of faith and moved to Texas A&M University to pursue my Master's 
-                in Data Science. It was here that I dove deep into AI research, working on everything from 
-                cancer detection using computer vision to building recommendation systems that are now 
-                used by the university's research administration.
+                Before this, I worked at HCLTech on high-throughput data platforms and ML workflows processing petabytes of data, sharpening my foundation in large-scale pipelines and system architecture. At Ancestry, I experimented with retrieval-augmented generation pipelines and recommendation systems, contributing to an AI-driven historian chatbot project — a true learning ground where I saw how traditional NLP thinking expands into today's LLM-powered world.
               </p>
-              
+
               <p className="text-white/80 text-lg leading-relaxed mb-6">
-                The highlight? Getting published in <span className="text-purple-400 font-semibold">Nature's NPJ Precision Oncology</span> 
-                for my work on breast cancer biomarker detection. It felt surreal seeing months of research 
-                contribute to potentially saving lives.
+                Earlier, during two years of research at Texas A&M University, I explored everything from cancer imaging to scholar recommendations to healthcare AI. Those years rooted me in classical ML and taught me how to adapt across domains. As the field has evolved, so have I — carrying forward the curiosity and rigor of those foundations while embracing the possibilities of modern, agentic AI.
               </p>
-              
+
+              <p className="text-white/80 text-lg leading-relaxed mb-6">
+                At the heart of my work is a simple belief: <span className="text-cyan-400 font-semibold">build things that matter, and build them to last</span>.
+              </p>
+
               <p className="text-white/80 text-lg leading-relaxed">
-                Today, I'm at Wizerr AI in Austin, fine-tuning LLMs and building RAG systems that help 
-                engineers find the right semiconductor components. It's amazing how AI can make even the 
-                most technical searches feel intuitive. When I'm not coding, you'll find me exploring Austin's 
-                food scene or planning my next travel adventure.
+                Outside of work, I find balance in movement and exploration — whether it's dancing, painting landscapes, hiking mountains, or uncovering hidden places that make you stop and see the world differently. Those small adventures fuel the same spirit I bring to my projects: curious, playful, and creative, yet always grounded in a desire to make something meaningful.
               </p>
             </div>
-            
+
             <div className="flex flex-wrap gap-4 mt-8 pt-6 border-t border-white/10">
-              <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">🇮🇳 From Chennai</span>
+              <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">🎨 Creative Explorer</span>
               <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">🎓 Texas A&M Alum</span>
-              <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">🤖 AI Enthusiast</span>
+              <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">🤖 AI Systems Builder</span>
               <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">📚 Published Researcher</span>
             </div>
           </div>
