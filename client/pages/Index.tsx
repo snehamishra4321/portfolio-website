@@ -487,7 +487,7 @@ export default function Index() {
                   I've always been drawn to{" "}
                   <span className="text-cyan-400 font-medium">puzzles</span>,
                   whether it's untangling a messy dataset, figuring out how
-                  systems scale, or chasing tranquil at a mountain's crest.
+                  systems scale, or navigating the hidden patterns in complex problems.
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
