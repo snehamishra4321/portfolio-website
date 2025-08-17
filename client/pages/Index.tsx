@@ -487,7 +487,8 @@ export default function Index() {
                   I've always been drawn to{" "}
                   <span className="text-cyan-400 font-medium">puzzles</span>,
                   whether it's untangling a messy dataset, figuring out how
-                  systems scale, or navigating the hidden patterns in complex problems.
+                  systems scale, or navigating the hidden patterns in complex
+                  problems.
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
@@ -618,16 +619,40 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-cyan-400 font-semibold">Designed</span> <span className="text-cyan-400 font-semibold">agentic</span> search platforms with multiple tool features that transform millions of semiconductor datasheets into interactive, engineer-grade intelligence.
+                    <span className="text-cyan-400 font-semibold">
+                      Designed
+                    </span>{" "}
+                    <span className="text-cyan-400 font-semibold">agentic</span>{" "}
+                    search platforms with multiple tool features that transform
+                    millions of semiconductor datasheets into interactive,
+                    engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-cyan-400 font-semibold">domain-adapted</span> language models with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
+                    Built{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      domain-adapted
+                    </span>{" "}
+                    language models with hybrid retrieval systems powering
+                    thousands of daily queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Delivered <span className="text-cyan-400 font-semibold">explainable</span> search systems that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
+                    Delivered{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      explainable
+                    </span>{" "}
+                    search systems that connect datasheets with sourcing data,
+                    enabling faster cross-references across enterprise chat
+                    systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove new <span className="text-cyan-400 font-semibold">product</span> development and built comprehensive <span className="text-cyan-400 font-semibold">evaluation</span> systems for chat across various scenarios with strong guardrails for production use cases.
+                    Drove new{" "}
+                    <span className="text-cyan-400 font-semibold">product</span>{" "}
+                    development and built comprehensive{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      evaluation
+                    </span>{" "}
+                    systems for chat across various scenarios with strong
+                    guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
@@ -760,16 +785,39 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">Developed</span> Virtual <span className="text-purple-400 font-semibold">Historian</span> Chatbot enabling contextual search across 100K+ digitized family history books.
+                    <span className="text-purple-400 font-semibold">
+                      Developed
+                    </span>{" "}
+                    Virtual{" "}
+                    <span className="text-purple-400 font-semibold">
+                      Historian
+                    </span>{" "}
+                    Chatbot enabling contextual search across 100K+ digitized
+                    family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Engineered a <span className="text-purple-400 font-semibold">hybrid</span> RAG system that blended structured metadata with semantic search for rich historical queries.
+                    Engineered a{" "}
+                    <span className="text-purple-400 font-semibold">
+                      hybrid
+                    </span>{" "}
+                    RAG system that blended structured metadata with semantic
+                    search for rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual</span> awareness.
+                    Explored graph vs. vector databases, balancing relational
+                    structure with scalable neural retrieval to improve{" "}
+                    <span className="text-purple-400 font-semibold">
+                      contextual
+                    </span>{" "}
+                    awareness.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Implemented <span className="text-purple-400 font-semibold">multimodal</span> document understanding, connecting text and images for genealogy artifacts.
+                    Implemented{" "}
+                    <span className="text-purple-400 font-semibold">
+                      multimodal
+                    </span>{" "}
+                    document understanding, connecting text and images for
+                    genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
@@ -867,16 +915,36 @@ export default function Index() {
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Led development of <span className="text-emerald-400 font-semibold">enterprise-scale</span> analytics platforms, powering insights for 2M+ global users across tools.
+                    Led development of{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      enterprise-scale
+                    </span>{" "}
+                    analytics platforms, powering insights for 2M+ global users
+                    across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-emerald-400 font-semibold">end-to-end</span> data pipelines to process and serve large-scale client datasets reliably and securely.
+                    Built{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      end-to-end
+                    </span>{" "}
+                    data pipelines to process and serve large-scale client
+                    datasets reliably and securely.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Owned <span className="text-emerald-400 font-semibold">product</span> strategy and delivery, bridging technical teams with business stakeholders.
+                    Owned{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      product
+                    </span>{" "}
+                    strategy and delivery, bridging technical teams with
+                    business stakeholders.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove <span className="text-emerald-400 font-semibold">enterprise</span> application rollouts, ensuring performance, scalability, and maintainability.
+                    Drove{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      enterprise
+                    </span>{" "}
+                    application rollouts, ensuring performance, scalability, and
+                    maintainability.
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
