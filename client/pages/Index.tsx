@@ -627,16 +627,7 @@ export default function Index() {
                     Delivered <span className="text-cyan-400 font-semibold">explainable</span> search systems that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove new{" "}
-                    <span className="text-cyan-400 font-semibold">
-                      product development
-                    </span>{" "}
-                    and built comprehensive{" "}
-                    <span className="text-cyan-400 font-semibold">
-                      evaluation systems
-                    </span>{" "}
-                    for chat across various scenarios with strong guardrails for
-                    production use cases.
+                    Drove new <span className="text-cyan-400 font-semibold">product</span> development and built comprehensive <span className="text-cyan-400 font-semibold">evaluation</span> systems for chat across various scenarios with strong guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
