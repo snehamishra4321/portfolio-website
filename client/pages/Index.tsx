@@ -16,10 +16,10 @@ export default function Index() {
   const handleBoxClick = (boxId: string) => {
     const element = document.getElementById(boxId);
     if (element) {
-      element.style.animation = 'none';
+      element.style.animation = "none";
       // Force reflow
       element.offsetHeight;
-      element.style.animation = 'clickSlide 0.6s ease-out';
+      element.style.animation = "clickSlide 0.6s ease-out";
     }
   };
 
@@ -271,24 +271,38 @@ export default function Index() {
             <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 justify-center items-center mb-8">
               <div
                 id="box1"
-                className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
-                onClick={() => handleBoxClick('box1')}
+                className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
+                onClick={() => handleBoxClick("box1")}
                 style={{
-                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? 'all 0.6s ease-out 0.2s' : 'none'
+                  transition: hasAnimated ? "all 0.6s ease-out 0.2s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-cyan-500/5 to-cyan-500/10 rounded-xl p-4 border-l-4 border-cyan-400/70 h-20">
                   <div className="flex items-center space-x-4 h-full">
                     <div className="w-6 h-6 bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                        />
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base font-bold text-white mb-1">Intelligent Agentic Systems</h3>
-                      <p className="text-white/70 text-sm italic">Designing AI that adapts and scales</p>
+                      <h3 className="text-base font-bold text-white mb-1">
+                        Intelligent Agentic Systems
+                      </h3>
+                      <p className="text-white/70 text-sm italic">
+                        Designing AI that adapts and scales
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -296,24 +310,38 @@ export default function Index() {
 
               <div
                 id="box2"
-                className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
-                onClick={() => handleBoxClick('box2')}
+                className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
+                onClick={() => handleBoxClick("box2")}
                 style={{
-                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? 'all 0.6s ease-out 0.4s' : 'none'
+                  transition: hasAnimated ? "all 0.6s ease-out 0.4s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-purple-500/5 to-purple-500/10 rounded-xl p-4 border-l-4 border-purple-400/70 h-20">
                   <div className="flex items-center space-x-4 h-full">
                     <div className="w-6 h-6 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                        />
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base font-bold text-white mb-1">Search & Retrieval</h3>
-                      <p className="text-white/70 text-sm italic">RAG pipelines for relevance and impact</p>
+                      <h3 className="text-base font-bold text-white mb-1">
+                        Search & Retrieval
+                      </h3>
+                      <p className="text-white/70 text-sm italic">
+                        RAG pipelines for relevance and impact
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -324,24 +352,38 @@ export default function Index() {
             <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 justify-center items-center">
               <div
                 id="box3"
-                className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
-                onClick={() => handleBoxClick('box3')}
+                className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
+                onClick={() => handleBoxClick("box3")}
                 style={{
-                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? 'all 0.6s ease-out 0.6s' : 'none'
+                  transition: hasAnimated ? "all 0.6s ease-out 0.6s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-emerald-500/5 to-emerald-500/10 rounded-xl p-4 border-l-4 border-emerald-400/70 h-20">
                   <div className="flex items-center space-x-4 h-full">
                     <div className="w-6 h-6 bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        />
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base font-bold text-white mb-1">Recommendations</h3>
-                      <p className="text-white/70 text-sm italic">User-facing intelligence through RecSys</p>
+                      <h3 className="text-base font-bold text-white mb-1">
+                        Recommendations
+                      </h3>
+                      <p className="text-white/70 text-sm italic">
+                        User-facing intelligence through RecSys
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -349,24 +391,38 @@ export default function Index() {
 
               <div
                 id="box4"
-                className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? 'opacity-100' : 'opacity-0'}`}
-                onClick={() => handleBoxClick('box4')}
+                className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
+                onClick={() => handleBoxClick("box4")}
                 style={{
-                  transform: hasAnimated ? 'translateY(0)' : 'translateY(20px)',
+                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? 'all 0.6s ease-out 0.8s' : 'none'
+                  transition: hasAnimated ? "all 0.6s ease-out 0.8s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-pink-500/5 to-pink-500/10 rounded-xl p-4 border-l-4 border-pink-400/70 h-20">
                   <div className="flex items-center space-x-4 h-full">
                     <div className="w-6 h-6 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
-                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base font-bold text-white mb-1">Context Engineering & Deployment</h3>
-                      <p className="text-white/70 text-sm italic">From research to production platforms</p>
+                      <h3 className="text-base font-bold text-white mb-1">
+                        Context Engineering & Deployment
+                      </h3>
+                      <p className="text-white/70 text-sm italic">
+                        From research to production platforms
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -428,21 +484,42 @@ export default function Index() {
             <div className="lg:col-span-2">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing tranquil at a mountain's crest.
+                  I've always been drawn to{" "}
+                  <span className="text-cyan-400 font-medium">puzzles</span>,
+                  whether it's untangling a messy dataset, figuring out how
+                  systems scale, or chasing tranquil at a mountain's crest.
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has driven me through building large-scale AI systems in enterprises, diving deep into advancing ML research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now being part of the founding engineering team shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>, in a high growth startup environment.
+                  Over the last{" "}
+                  <span className="text-purple-400 font-medium">5+ years</span>{" "}
+                  of my professional life, that same curiosity has driven me
+                  through building large-scale AI systems in enterprises, diving
+                  deep into advancing ML research at{" "}
+                  <span className="text-emerald-400 font-medium">
+                    Texas A&M
+                  </span>
+                  , and now being part of the founding engineering team shaping
+                  agentic platforms in production at{" "}
+                  <span className="text-cyan-400 font-medium">Wizerr AI</span>,
+                  in a high growth startup environment.
                 </p>
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
                   <p className="text-white font-medium text-lg italic">
-                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
+                    "I believe great systems are both thoughtful and enduring —
+                    built with precision today, but flexible enough to grow
+                    tomorrow, always leaving room for creativity."
                   </p>
                 </div>
 
                 <p className="text-white/80 text-lg leading-relaxed">
-                  Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover!
+                  Outside of work, I find balance in{" "}
+                  <span className="text-pink-400 font-medium">
+                    dancing, painting landscapes
+                  </span>
+                  , and seeking out hidden places that remind me there is always
+                  more to discover!
                 </p>
               </div>
             </div>
@@ -450,30 +527,42 @@ export default function Index() {
             {/* Right Column - Key Belief & Values */}
             <div className="space-y-6">
               <div className="bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-2xl p-6 border border-cyan-400/20">
-                <h3 className="text-xl font-bold text-white mb-4">Core Belief</h3>
+                <h3 className="text-xl font-bold text-white mb-4">
+                  Core Belief
+                </h3>
                 <p className="text-cyan-400 font-semibold text-lg italic leading-relaxed">
                   "Build things that matter, and build them to last"
                 </p>
               </div>
 
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-                <h3 className="text-xl font-bold text-white mb-4">What Drives Me</h3>
+                <h3 className="text-xl font-bold text-white mb-4">
+                  What Drives Me
+                </h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Untangling complex puzzles</span>
+                    <span className="text-white/80 text-sm">
+                      Untangling complex puzzles
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Building systems that scale</span>
+                    <span className="text-white/80 text-sm">
+                      Building systems that scale
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Bridging research and real-world impact</span>
+                    <span className="text-white/80 text-sm">
+                      Bridging research and real-world impact
+                    </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Letting curiosity spark discovery</span>
+                    <span className="text-white/80 text-sm">
+                      Letting curiosity spark discovery
+                    </span>
                   </div>
                 </div>
               </div>
@@ -529,20 +618,45 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
+                    <span className="text-cyan-400 font-semibold">
+                      Designed agentic search platforms
+                    </span>{" "}
+                    that transform semiconductor documentation into interactive,
+                    engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
+                    Built{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      domain-adapted language models
+                    </span>{" "}
+                    with hybrid retrieval systems powering thousands of daily
+                    queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Delivered <span className="text-cyan-400 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
+                    Delivered{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      explainable search systems
+                    </span>{" "}
+                    that connect datasheets with sourcing data, enabling faster
+                    cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove new <span className="text-cyan-400 font-semibold">product development</span> and built comprehensive <span className="text-cyan-400 font-semibold">evaluation systems</span> for chat across various scenarios with strong guardrails for production use cases.
+                    Drove new{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      product development
+                    </span>{" "}
+                    and built comprehensive{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      evaluation systems
+                    </span>{" "}
+                    for chat across various scenarios with strong guardrails for
+                    production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
-                      🚀 Scaled real-time AI workloads with low-latency inference and cloud-native deployment for enterprise reliability.
+                      🚀 Scaled real-time AI workloads with low-latency
+                      inference and cloud-native deployment for enterprise
+                      reliability.
                     </p>
                   </div>
                 </div>
@@ -556,45 +670,97 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">🧠 Foundation Models (LLMs, Multimodal)</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">
+                      🧠 Foundation Models (LLMs, Multimodal)
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LLM Fine-tuning</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Foundation Models</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">State-of-the-Art Models</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Context Engineering</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Prompt Engineering</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LLM Systems Optimization</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LLM Fine-tuning
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Foundation Models
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        State-of-the-Art Models
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Context Engineering
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Prompt Engineering
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LLM Systems Optimization
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">🤖 Agentic & Search Systems</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">
+                      🤖 Agentic & Search Systems
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agentic Systems</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">MCP Servers</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Hybrid Retrieval</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Long Context Search</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">State & Memory Mgmt</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Agentic Systems
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        MCP Servers
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Hybrid Retrieval
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Long Context Search
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        State & Memory Mgmt
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">💻 Programming & Tools</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">
+                      💻 Programming & Tools
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">PyTorch</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">TensorFlow</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Docker</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">MLflow</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">LangChain</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Python
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        PyTorch
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        TensorFlow
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Docker
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        MLflow
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LangChain
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-pink-400 font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
+                    <h5 className="text-pink-400 font-semibold mb-2">
+                      ☁️ Cloud & Infrastructure
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">AWS</span>
-                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">FAISS</span>
-                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Pinecone</span>
-                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Vector Databases</span>
-                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">Databricks</span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        AWS
+                      </span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        FAISS
+                      </span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Pinecone
+                      </span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Vector Databases
+                      </span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Databricks
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -614,20 +780,38 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">Developed Virtual Historian Chatbot</span> enabling contextual search across 100K+ digitized family history books.
+                    <span className="text-purple-400 font-semibold">
+                      Developed Virtual Historian Chatbot
+                    </span>{" "}
+                    enabling contextual search across 100K+ digitized family
+                    history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Engineered a <span className="text-purple-400 font-semibold">hybrid RAG system</span> that blended structured metadata with semantic search for rich historical queries.
+                    Engineered a{" "}
+                    <span className="text-purple-400 font-semibold">
+                      hybrid RAG system
+                    </span>{" "}
+                    that blended structured metadata with semantic search for
+                    rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual awareness.</span>
+                    Explored graph vs. vector databases, balancing relational
+                    structure with scalable neural retrieval to improve{" "}
+                    <span className="text-purple-400 font-semibold">
+                      contextual awareness.
+                    </span>
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Implemented <span className="text-purple-400 font-semibold">multimodal document understanding,</span> connecting text and images for genealogy artifacts.
+                    Implemented{" "}
+                    <span className="text-purple-400 font-semibold">
+                      multimodal document understanding,
+                    </span>{" "}
+                    connecting text and images for genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      🎯 Presented research outcomes to senior leadership, influencing future product directions.
+                      🎯 Presented research outcomes to senior leadership,
+                      influencing future product directions.
                     </p>
                   </div>
                 </div>
@@ -641,32 +825,66 @@ export default function Index() {
                 </h4>
                 <div className="space-y-5">
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">🔬 NLP & Research</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">
+                      🔬 NLP & Research
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">BERT</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">GPT-4</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">LLaMA</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Claude</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">RoBERTa</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        BERT
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        GPT-4
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LLaMA
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Claude
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        RoBERTa
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">🔄 Hybrid RAG & Retrieval</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">
+                      🔄 Hybrid RAG & Retrieval
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LangChain</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Pinecone</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">ElasticSearch</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Context Engineering</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Cross-encoder</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LangChain
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Pinecone
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        ElasticSearch
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Context Engineering
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Cross-encoder
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">☁️ Computer Vision & AWS</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">
+                      ☁️ Computer Vision & AWS
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">OCR</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">AWS S3</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">SageMaker</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Lambda</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        OCR
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        AWS S3
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        SageMaker
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Lambda
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -686,20 +904,40 @@ export default function Index() {
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Led development of <span className="text-emerald-400 font-semibold">enterprise-scale analytics platforms,</span> powering insights for 2M+ global users across tools.
+                    Led development of{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      enterprise-scale analytics platforms,
+                    </span>{" "}
+                    powering insights for 2M+ global users across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-emerald-400 font-semibold">end-to-end data pipelines</span> to process and serve large-scale client datasets reliably and securely.
+                    Built{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      end-to-end data pipelines
+                    </span>{" "}
+                    to process and serve large-scale client datasets reliably
+                    and securely.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Owned <span className="text-emerald-400 font-semibold">product strategy</span> and delivery, bridging technical teams with business stakeholders.
+                    Owned{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      product strategy
+                    </span>{" "}
+                    and delivery, bridging technical teams with business
+                    stakeholders.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove <span className="text-emerald-400 font-semibold">enterprise application</span> rollouts, ensuring performance, scalability, and maintainability.
+                    Drove{" "}
+                    <span className="text-emerald-400 font-semibold">
+                      enterprise application
+                    </span>{" "}
+                    rollouts, ensuring performance, scalability, and
+                    maintainability.
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
-                      👥 Mentored junior engineers, fostering collaboration and technical growth within the team.
+                      👥 Mentored junior engineers, fostering collaboration and
+                      technical growth within the team.
                     </p>
                   </div>
                 </div>
@@ -713,38 +951,69 @@ export default function Index() {
                 </h4>
                 <div className="space-y-5">
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">🔧 Data Engineering</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">
+                      🔧 Data Engineering
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Databricks</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Redshift</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Airflow</span>
-                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Kafka</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Python
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Databricks
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Redshift
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Airflow
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Kafka
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">📊 Data Science & Analytics</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">
+                      📊 Data Science & Analytics
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Spark</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">SQL</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">PowerBI</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Tableau</span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Pandas</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Spark
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        SQL
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        PowerBI
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Tableau
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Pandas
+                      </span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">👔 Product & Leadership</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">
+                      👔 Product & Leadership
+                    </h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agile</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Stakeholder Mgmt</span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Roadmapping</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Agile
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Stakeholder Mgmt
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Roadmapping
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -762,31 +1031,49 @@ export default function Index() {
           <div className="bg-gradient-to-r from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-purple-400/20 mb-12">
             <h3 className="text-2xl font-bold text-white mb-2">
               Research Experience at{" "}
-              <span className="text-purple-400 text-3xl">Texas A&M University</span>
+              <span className="text-purple-400 text-3xl">
+                Texas A&M University
+              </span>
             </h3>
             <p className="text-white/60 text-lg mb-6">2022 – 2024</p>
 
             <div className="space-y-4">
               <div>
-                <h4 className="text-lg font-semibold text-purple-300 mb-2">Dr. Lele's Mechanobiology Lab</h4>
+                <h4 className="text-lg font-semibold text-purple-300 mb-2">
+                  Dr. Lele's Mechanobiology Lab
+                </h4>
                 <p className="text-white/80 leading-relaxed">
-                  Developed multi-class classification models for Lamin B1 stained breast cancer tissue imaging to investigate nuclear wrinkling as a cancer biomarker.
+                  Developed multi-class classification models for Lamin B1
+                  stained breast cancer tissue imaging to investigate nuclear
+                  wrinkling as a cancer biomarker.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold text-cyan-300 mb-2">High-Performance Research Computing Lab</h4>
+                <h4 className="text-lg font-semibold text-cyan-300 mb-2">
+                  High-Performance Research Computing Lab
+                </h4>
                 <p className="text-white/80 leading-relaxed">
-                  Built scholar recommendation system using LLMs, now utilized by TAMU's VP of Research for 2000+ grants annually. Fine-tuned Llama2 with QLoRA and RAG techniques.
-                  Performed <span className="text-cyan-400 font-semibold">performance benchmarking</span> of LLMs and vision models for HPC clusters.
-                  Developed LLM-Pruner, achieving 30% size reduction with baseline performance.
+                  Built scholar recommendation system using LLMs, now utilized
+                  by TAMU's VP of Research for 2000+ grants annually. Fine-tuned
+                  Llama2 with QLoRA and RAG techniques. Performed{" "}
+                  <span className="text-cyan-400 font-semibold">
+                    performance benchmarking
+                  </span>{" "}
+                  of LLMs and vision models for HPC clusters. Developed
+                  LLM-Pruner, achieving 30% size reduction with baseline
+                  performance.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold text-emerald-300 mb-2">Statistics & Bioinformatics Lab</h4>
+                <h4 className="text-lg font-semibold text-emerald-300 mb-2">
+                  Statistics & Bioinformatics Lab
+                </h4>
                 <p className="text-white/80 leading-relaxed">
-                  Architected custom deep learning models for diabetes treatment regimens using EHRs for 20k+ patients with novel surrogate loss functions.
+                  Architected custom deep learning models for diabetes treatment
+                  regimens using EHRs for 20k+ patients with novel surrogate
+                  loss functions.
                 </p>
               </div>
             </div>
@@ -828,16 +1115,32 @@ export default function Index() {
               </div>
             </div>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              Applied <span className="text-purple-400 font-semibold">fine-tuning and experimentation</span> methods for domain adaptation
-              on Lamin B1 stained breast cancer tissue images investigating extreme nuclear wrinkling as a cancer biomarker.
+              Applied{" "}
+              <span className="text-purple-400 font-semibold">
+                fine-tuning and experimentation
+              </span>{" "}
+              methods for domain adaptation on Lamin B1 stained breast cancer
+              tissue images investigating extreme nuclear wrinkling as a cancer
+              biomarker.
             </p>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              Implemented multi-class classification through <span className="text-cyan-400 font-medium">dataset augmentation</span> and
-              <span className="text-cyan-400 font-medium"> fine-tuning</span> of Vision Transformers, ResNet50, and InceptionV3 for medical imaging applications.
+              Implemented multi-class classification through{" "}
+              <span className="text-cyan-400 font-medium">
+                dataset augmentation
+              </span>{" "}
+              and
+              <span className="text-cyan-400 font-medium"> fine-tuning</span> of
+              Vision Transformers, ResNet50, and InceptionV3 for medical imaging
+              applications.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
-              Additional work included <span className="text-purple-400 font-semibold">fine-tuning conditional-GAN</span> (StyleGAN2) architecture for domain-adapted synthetic breast cancer imagery
-              and customizing V-Net model for brain CT/MRI segmentation achieving 0.87 Dice coefficient.
+              Additional work included{" "}
+              <span className="text-purple-400 font-semibold">
+                fine-tuning conditional-GAN
+              </span>{" "}
+              (StyleGAN2) architecture for domain-adapted synthetic breast
+              cancer imagery and customizing V-Net model for brain CT/MRI
+              segmentation achieving 0.87 Dice coefficient.
             </p>
           </div>
 
@@ -918,9 +1221,9 @@ export default function Index() {
           </h2>
 
           <p className="text-xl text-white/70 mb-12 leading-relaxed">
-            Always excited to discuss AI research, machine learning projects, exciting roles, or
-            potential collaborations. Or if you just want to chat about the best
-            Austin food spots!
+            Always excited to discuss AI research, machine learning projects,
+            exciting roles, or potential collaborations. Or if you just want to
+            chat about the best Austin food spots!
           </p>
 
           <div className="flex justify-center items-center space-x-12 mb-12">
@@ -930,8 +1233,12 @@ export default function Index() {
               title="Email me"
             >
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-red-500/25">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h1.818l8.545 6.409 8.545-6.409h1.82c.904 0 1.636.732 1.636 1.636z"/>
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h1.818l8.545 6.409 8.545-6.409h1.82c.904 0 1.636.732 1.636 1.636z" />
                 </svg>
               </div>
             </a>
@@ -944,8 +1251,12 @@ export default function Index() {
               title="Connect on LinkedIn"
             >
               <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center shadow-lg hover:shadow-blue-500/25">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                 </svg>
               </div>
             </a>
@@ -958,8 +1269,12 @@ export default function Index() {
               title="View GitHub"
             >
               <div className="w-16 h-16 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center shadow-lg hover:shadow-gray-500/25">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                 </svg>
               </div>
             </a>
