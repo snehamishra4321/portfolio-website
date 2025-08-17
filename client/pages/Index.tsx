@@ -429,7 +429,7 @@ export default function Index() {
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
                   <p className="text-white font-medium text-lg italic">
-                    "I believe great systems are both thoughtful and enduring �� built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
+                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
                   </p>
                 </div>
 
@@ -618,16 +618,17 @@ export default function Index() {
                 </h4>
                 <div className="space-y-5">
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">Research & Models</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">🔬 NLP & Research</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">BERT</span>
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">GPT-4</span>
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">LLaMA</span>
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Claude</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">RoBERTa</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">RAG & Retrieval</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">🔄 Hybrid RAG & Retrieval</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
@@ -636,11 +637,12 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">Computer Vision</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">☁️ Computer Vision & AWS</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">OCR</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Embeddings</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Image-Text Alignment</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">AWS S3</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">SageMaker</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Lambda</span>
                     </div>
                   </div>
                 </div>
