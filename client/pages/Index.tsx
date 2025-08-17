@@ -420,7 +420,7 @@ export default function Index() {
             <div className="lg:col-span-2">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing the best view on a mountain trail!
+                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing tranquil at a mountain's crest.
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
@@ -429,7 +429,7 @@ export default function Index() {
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
                   <p className="text-white font-medium text-lg italic">
-                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity!"
+                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
                   </p>
                 </div>
 
@@ -491,12 +491,6 @@ export default function Index() {
             </span>
             <span className="bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium">
               💃 Dance Enthusiast
-            </span>
-            <span className="bg-green-500/20 text-green-300 px-4 py-2 rounded-full text-sm font-medium">
-              🧩 Puzzle Solver
-            </span>
-            <span className="bg-red-500/20 text-red-300 px-4 py-2 rounded-full text-sm font-medium">
-              🌍 Hidden Places Seeker
             </span>
           </div>
         </div>
