@@ -670,7 +670,7 @@ export default function Index() {
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-2">
               Data & Analytics Engineer / Product Owner at{" "}
-              <span className="text-emerald-400">HCLTech</span>
+              <span className="text-emerald-400 text-3xl">HCLTech</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">2021 – 2022</p>
             <div className="grid lg:grid-cols-2 gap-6">
