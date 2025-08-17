@@ -870,12 +870,7 @@ export default function Index() {
                     Led development of <span className="text-emerald-400 font-semibold">enterprise-scale</span> analytics platforms, powering insights for 2M+ global users across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built{" "}
-                    <span className="text-emerald-400 font-semibold">
-                      end-to-end data pipelines
-                    </span>{" "}
-                    to process and serve large-scale client datasets reliably
-                    and securely.
+                    Built <span className="text-emerald-400 font-semibold">end-to-end</span> data pipelines to process and serve large-scale client datasets reliably and securely.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Owned{" "}
