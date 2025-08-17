@@ -500,7 +500,7 @@ export default function Index() {
       <section id="work" className="relative z-10 px-6 lg:px-12 py-24">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
-            Work &{" "}
+            💡 Work &{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Impact
             </span>
@@ -521,17 +521,17 @@ export default function Index() {
                     <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> powering thousands of daily queries with higher contextual accuracy.
+                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Delivered <span className="text-cyan-400 font-semibold">retrieval systems</span> that connect datasheets with sourcing data, enabling faster, explainable cross-references.
+                    Delivered <span className="text-cyan-400 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Scaled backend services for real-time workloads, supporting high-throughput usage across enterprise teams.
+                    Built reliable evaluation systems for chat across various scenarios with strong guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
-                      Optimized production pipelines, improving query speed, reliability, and user experience.
+                      🚀 Scaled real-time AI workloads with low-latency inference and cloud-native deployment for enterprise reliability.
                     </p>
                   </div>
                 </div>
