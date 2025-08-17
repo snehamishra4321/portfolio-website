@@ -169,53 +169,41 @@ export default function Index() {
           </div>
 
           {/* Expertise Highlights */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pt-16">
-            <div className="flex items-center space-x-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0">
-                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-8 pt-12 max-w-4xl mx-auto">
+            <div className="flex items-center space-x-3 group">
+              <div className="w-6 h-6 bg-gradient-to-r from-cyan-400 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold text-white">Intelligent Agentic Systems</h3>
-                <p className="text-white/60 text-sm">Designing AI that adapts and scales</p>
-              </div>
+              <span className="text-white font-medium text-sm whitespace-nowrap">Intelligent Agentic Systems</span>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
-                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center space-x-3 group">
+              <div className="w-6 h-6 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold text-white">Search & Retrieval</h3>
-                <p className="text-white/60 text-sm">RAG pipelines for relevance and impact</p>
-              </div>
+              <span className="text-white font-medium text-sm whitespace-nowrap">Search & Retrieval</span>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
-                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center space-x-3 group">
+              <div className="w-6 h-6 bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold text-white">Recommendations</h3>
-                <p className="text-white/60 text-sm">User-facing intelligence through RecSys</p>
-              </div>
+              <span className="text-white font-medium text-sm whitespace-nowrap">Recommendations</span>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
-                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex items-center space-x-3 group">
+              <div className="w-6 h-6 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold text-white">Shipping AI Solutions</h3>
-                <p className="text-white/60 text-sm">From research to production platforms</p>
-              </div>
+              <span className="text-white font-medium text-sm whitespace-nowrap">Shipping AI Solutions</span>
             </div>
           </div>
         </div>
