@@ -482,23 +482,23 @@ export default function Index() {
 
           {/* Bottom - Personality Tags */}
           <div className="flex flex-wrap justify-center gap-4 mt-12 pt-8 border-t border-white/10">
-            <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-cyan-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               🎨 Creative Explorer
             </span>
-            <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-purple-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               🎓 Texas A&M Alum
             </span>
-            <span className="bg-emerald-500/20 text-emerald-300 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-emerald-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               🤖 AI Systems Builder
             </span>
-            <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-pink-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               📚 Published Researcher
             </span>
-            <span className="bg-indigo-500/20 text-indigo-300 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-indigo-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               🏔️ Mountain Explorer
             </span>
-            <span className="bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium">
-              💃 Dance Enthusiast
+            <span className="bg-yellow-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
+              💃 Artist
             </span>
           </div>
         </div>
