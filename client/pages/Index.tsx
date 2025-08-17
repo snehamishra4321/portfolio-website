@@ -567,7 +567,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">🤖 Agentic & Search Systems</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">🤖 Agentic & Search Systems</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agentic Systems</span>
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">MCP Servers</span>
@@ -577,7 +577,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">💻 Programming & Tools</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">💻 Programming & Tools</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">PyTorch</span>
@@ -588,7 +588,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
+                    <h5 className="text-pink-400 font-semibold mb-2">☁️ Cloud & Infrastructure</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">AWS</span>
                       <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">FAISS</span>
