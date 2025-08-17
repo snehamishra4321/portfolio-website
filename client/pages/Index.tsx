@@ -432,7 +432,7 @@ export default function Index() {
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has guided me through building large-scale systems in industry, diving deep into research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>.
+                  Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has driven me through building large-scale AI systems in enterprises, diving deep into advancing ML research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now being part of the founding engineering team shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>, in a high growth startup environment.
                 </p>
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
