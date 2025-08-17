@@ -651,24 +651,26 @@ export default function Index() {
               Data & Analytics Engineer / Product Owner at{" "}
               <span className="text-emerald-400">HCLTech</span>
             </h3>
-            <p className="text-white/60 text-lg mb-8">2019 – 2022</p>
+            <p className="text-white/60 text-lg mb-8">2021 – 2022</p>
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
-                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
-                  <div className="w-3 h-3 bg-emerald-400 rounded-full mr-3"></div>
-                  Role & Impact
-                </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Led <span className="text-emerald-400 font-semibold">enterprise data engineering</span> initiatives, building robust pipelines and analytics platforms for Fortune 500 clients.
+                    <span className="text-emerald-400 font-semibold">Led development of enterprise-scale analytics platforms,</span> powering insights for 50K+ global users.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Served as <span className="text-emerald-400 font-semibold">Product Owner</span> managing delivery for 8+ clients on $10M+ projects, driving product strategy and stakeholder management.
+                    Built <span className="text-emerald-400 font-semibold">end-to-end data pipelines</span> to process and serve large-scale client datasets reliably and securely.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Owned product strategy and delivery, bridging technical teams with business stakeholders.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Drove enterprise application rollouts, ensuring performance, scalability, and maintainability.
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
-                      Processed 2M+ events/hr • 8+ client deliveries • $10M+ project value
+                      Mentored junior engineers, fostering collaboration and technical growth within the team.
                     </p>
                   </div>
                 </div>
