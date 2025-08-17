@@ -507,9 +507,7 @@ export default function Index() {
       {/* Work & Impact Section */}
       <section id="work" className="relative z-10 px-6 lg:px-12 py-24">
         <div className="max-w-6xl mx-auto">
-          <h2 className={`text-4xl lg:text-5xl font-bold mb-16 ${
-            isDarkTheme ? 'text-white' : 'text-gray-900'
-          }`}>
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
             Work &{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Impact
