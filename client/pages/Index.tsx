@@ -427,21 +427,21 @@ export default function Index() {
             {/* Left Column - Main Story */}
             <div className="lg:col-span-2">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-                <p className={`text-lg leading-relaxed mb-6 ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
+                <p className="text-white/80 text-lg leading-relaxed mb-6">
                   I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing tranquil at a mountain's crest.
                 </p>
 
-                <p className={`text-lg leading-relaxed mb-6 ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
+                <p className="text-white/80 text-lg leading-relaxed mb-6">
                   Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has guided me through building large-scale systems in industry, diving deep into research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>.
                 </p>
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
-                  <p className={`font-medium text-lg italic ${isDarkTheme ? 'text-white' : 'text-gray-800'}`}>
+                  <p className="text-white font-medium text-lg italic">
                     "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
                   </p>
                 </div>
 
-                <p className={`text-lg leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
+                <p className="text-white/80 text-lg leading-relaxed">
                   Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover!
                 </p>
               </div>
@@ -766,7 +766,7 @@ export default function Index() {
               Research Experience at{" "}
               <span className="text-purple-400 text-3xl">Texas A&M University</span>
             </h3>
-            <p className="text-white/60 text-lg mb-6">2022 – 2024</p>
+            <p className="text-white/60 text-lg mb-6">2022 �� 2024</p>
 
             <div className="space-y-4">
               <div>
