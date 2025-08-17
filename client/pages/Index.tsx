@@ -512,10 +512,12 @@ export default function Index() {
             </span>
           </h2>
 
+          {/* Wizerr AI - Current Role */}
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
             <h3 className="text-3xl font-bold text-white mb-8">
               Machine Learning Engineer at{" "}
               <span className="text-cyan-400">Wizerr AI</span>
+              <span className="text-white/60 text-xl font-normal ml-4">2024 - Present</span>
             </h3>
             <div className="grid lg:grid-cols-2 gap-8">
               <div className="space-y-6">
@@ -573,11 +575,137 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Featured Projects */}
+          {/* Ancestry - Intern Role */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
+            <h3 className="text-3xl font-bold text-white mb-8">
+              AI-NLP-CV Intern at{" "}
+              <span className="text-purple-400">Ancestry</span>
+              <span className="text-white/60 text-xl font-normal ml-4">Summer 2023</span>
+            </h3>
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Applied Research
+                    </h4>
+                    <p className="text-white/70">
+                      Conducted applied research in AI, NLP, and Computer Vision
+                      for genealogy and family history applications
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-cyan-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Virtual Historian RAG
+                    </h4>
+                    <p className="text-white/70">
+                      Built RAG pipeline for 100K+ family history books with
+                      hybrid retrieval achieving 0.85 MRR scores
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Document Processing
+                    </h4>
+                    <p className="text-white/70">
+                      Implemented multi-modal document understanding for
+                      genealogy records and historical artifacts
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Executive Presentation
+                    </h4>
+                    <p className="text-white/70">
+                      Presented research findings to executive panel including
+                      VP of Engineering and Chief Product Officer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* HCLTech - Previous Role */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
+            <h3 className="text-3xl font-bold text-white mb-8">
+              Data & Analytics Engineer, Product Owner at{" "}
+              <span className="text-emerald-400">HCLTech</span>
+              <span className="text-white/60 text-xl font-normal ml-4">2021 - 2022</span>
+            </h3>
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Data Engineering
+                    </h4>
+                    <p className="text-white/70">
+                      Built robust data pipelines and analytics platforms for
+                      enterprise clients handling large-scale data processing
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-cyan-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Product Ownership
+                    </h4>
+                    <p className="text-white/70">
+                      Led product strategy and roadmap for data analytics
+                      solutions, managing stakeholder requirements and delivery
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Enterprise Solutions
+                    </h4>
+                    <p className="text-white/70">
+                      Developed enterprise-scale applications serving 50K+ users
+                      across multiple client projects
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-3"></div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white mb-2">
+                      Team Leadership
+                    </h4>
+                    <p className="text-white/70">
+                      Mentored junior developers and led technical documentation
+                      efforts for knowledge transfer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Skills & Expertise */}
           <div className="grid lg:grid-cols-2 gap-8">
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
               <h4 className="text-xl font-bold text-white mb-4">
-                Featured Projects
+                Key Projects & Impact
               </h4>
 
               <div className="space-y-6">
