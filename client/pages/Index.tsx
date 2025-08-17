@@ -838,7 +838,7 @@ export default function Index() {
               <span className="text-cyan-400 font-medium"> fine-tuning</span> of Vision Transformers, ResNet50, and InceptionV3 for medical imaging applications.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
-              Additional work included <span className="text-purple-400 font-semibold">fine-tuning conditional-GAN</span> (StyleGAN2) for domain-adapted synthetic breast cancer imagery
+              Additional work included <span className="text-purple-400 font-semibold">fine-tuning conditional-GAN</span> (StyleGAN2) architecture for domain-adapted synthetic breast cancer imagery
               and customizing V-Net model for brain CT/MRI segmentation achieving 0.87 Dice coefficient.
             </p>
           </div>
