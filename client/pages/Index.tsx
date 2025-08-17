@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 export default function Index() {
   const [profileImage, setProfileImage] = useState<string | null>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -492,7 +493,7 @@ export default function Index() {
               🤖 AI Systems Builder
             </span>
             <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
-              ���� Published Researcher
+              📚 Published Researcher
             </span>
             <span className="bg-indigo-500/20 text-indigo-300 px-4 py-2 rounded-full text-sm font-medium">
               🏔️ Mountain Explorer
