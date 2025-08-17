@@ -500,7 +500,7 @@ export default function Index() {
                     Texas A&M
                   </span>
                   , and now being part of the founding engineering team shaping
-                  agentic platforms in production at{" "}
+                  agentic search platform at{" "}
                   <span className="text-cyan-400 font-medium">Wizerr AI</span>,
                   in a high growth startup environment.
                 </p>
