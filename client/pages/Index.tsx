@@ -429,7 +429,7 @@ export default function Index() {
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
                   <p className="text-white font-medium text-lg italic">
-                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
+                    "I believe great systems are both thoughtful and enduring �� built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity."
                   </p>
                 </div>
 
@@ -591,20 +591,20 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">Developed an AI-powered Virtual Historian,</span> enabling contextual search across 100K+ digitized family history books.
+                    <span className="text-purple-400 font-semibold">Developed Virtual Historian Chatbot</span> enabling contextual search across 100K+ digitized family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Engineered a <span className="text-purple-400 font-semibold">retrieval-augmented system</span> that blended structured metadata with semantic search for rich historical queries.
+                    Engineered a <span className="text-purple-400 font-semibold">hybrid RAG system</span> that blended structured metadata with semantic search for rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve discovery.
+                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual awareness.</span>
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Implemented <span className="text-purple-400 font-semibold">multimodal document understanding,</span> connecting text and images for genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      Presented research outcomes to senior leadership, influencing future product directions.
+                      🎯 Presented research outcomes to senior leadership, influencing future product directions.
                     </p>
                   </div>
                 </div>
