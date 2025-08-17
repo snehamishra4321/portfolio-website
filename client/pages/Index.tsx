@@ -47,11 +47,11 @@ export default function Index() {
       {/* Dynamic AI-inspired background */}
       <div className="fixed inset-0">
         {/* Neural network nodes */}
-        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-cyan-400 rounded-full opacity-60 animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-purple-400 rounded-full opacity-80 animate-pulse delay-500"></div>
-        <div className="absolute bottom-1/3 left-1/2 w-1.5 h-1.5 bg-emerald-400 rounded-full opacity-70 animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/6 w-1 h-1 bg-pink-400 rounded-full opacity-60 animate-pulse delay-1500"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-2 h-2 bg-blue-400 rounded-full opacity-50 animate-pulse delay-2000"></div>
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-orange-400 rounded-full opacity-60 animate-pulse"></div>
+        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-rose-400 rounded-full opacity-80 animate-pulse delay-500"></div>
+        <div className="absolute bottom-1/3 left-1/2 w-1.5 h-1.5 bg-teal-400 rounded-full opacity-70 animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/6 w-1 h-1 bg-violet-400 rounded-full opacity-60 animate-pulse delay-1500"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-2 h-2 bg-amber-400 rounded-full opacity-50 animate-pulse delay-2000"></div>
 
         {/* Connection lines */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-10">
