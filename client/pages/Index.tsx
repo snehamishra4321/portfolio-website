@@ -45,7 +45,7 @@ export default function Index() {
 
   return (
     <div className={`min-h-screen relative overflow-hidden ${isDarkTheme
-      ? 'bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800'
+      ? 'bg-black'
       : 'bg-gradient-to-br from-white via-gray-50 to-slate-100'
     }`}>
       {/* Dynamic AI-inspired background */}
