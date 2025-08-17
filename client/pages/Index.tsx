@@ -484,30 +484,30 @@ export default function Index() {
             {/* Right Column - Key Belief & Values */}
             <div className="space-y-6">
               <div className="bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-2xl p-6 border border-cyan-400/20">
-                <h3 className="text-xl font-bold text-white mb-4">Core Belief</h3>
+                <h3 className={`text-xl font-bold mb-4 ${isDarkTheme ? 'text-white' : 'text-gray-900'}`}>Core Belief</h3>
                 <p className="text-cyan-400 font-semibold text-lg italic leading-relaxed">
                   "Build things that matter, and build them to last"
                 </p>
               </div>
 
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-                <h3 className="text-xl font-bold text-white mb-4">What Drives Me</h3>
+                <h3 className={`text-xl font-bold mb-4 ${isDarkTheme ? 'text-white' : 'text-gray-900'}`}>What Drives Me</h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Untangling complex puzzles</span>
+                    <span className={`text-sm ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>Untangling complex puzzles</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Building systems that scale</span>
+                    <span className={`text-sm ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>Building systems that scale</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Bridging research and real-world impact</span>
+                    <span className={`text-sm ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>Bridging research and real-world impact</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                    <span className="text-white/80 text-sm">Letting curiosity spark discovery</span>
+                    <span className={`text-sm ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>Letting curiosity spark discovery</span>
                   </div>
                 </div>
               </div>
