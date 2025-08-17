@@ -2,7 +2,26 @@ import { useState, useEffect, useRef } from "react";
 
 export default function Index() {
   const [profileImage, setProfileImage] = useState<string | null>(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    // Trigger initial animation after component mounts
+    const timer = setTimeout(() => {
+      setHasAnimated(true);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleBoxClick = (boxId: string) => {
+    const element = document.getElementById(boxId);
+    if (element) {
+      element.style.animation = 'none';
+      // Force reflow
+      element.offsetHeight;
+      element.style.animation = 'clickSlide 0.6s ease-out';
+    }
+  };
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
@@ -384,6 +403,17 @@ export default function Index() {
               to {
                 opacity: 1;
                 transform: translateY(0);
+              }
+            }
+            @keyframes clickSlide {
+              0% {
+                transform: translateX(-10px);
+              }
+              50% {
+                transform: translateX(5px);
+              }
+              100% {
+                transform: translateX(0);
               }
             }
           `}</style>
