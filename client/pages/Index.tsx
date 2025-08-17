@@ -713,31 +713,31 @@ export default function Index() {
                 </h4>
                 <div className="space-y-5">
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">🔧 Data Engineering</h5>
+                    <h5 className="text-white font-semibold mb-2">🔧 Data Engineering</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Python</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Databricks</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Redshift</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Airflow</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Kafka</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Databricks</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Redshift</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Airflow</span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Kafka</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">📊 Data Science & Analytics</h5>
+                    <h5 className="text-white font-semibold mb-2">📊 Data Science & Analytics</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Spark</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">SQL</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PowerBI</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Tableau</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Pandas</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Spark</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">SQL</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">PowerBI</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Tableau</span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Pandas</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">👔 Product & Leadership</h5>
+                    <h5 className="text-white font-semibold mb-2">👔 Product & Leadership</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Agile</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Stakeholder Mgmt</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Roadmapping</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agile</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Stakeholder Mgmt</span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Roadmapping</span>
                     </div>
                   </div>
                 </div>
