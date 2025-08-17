@@ -760,11 +760,7 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">
-                      Developed Virtual Historian Chatbot
-                    </span>{" "}
-                    enabling contextual search across 100K+ digitized family
-                    history books.
+                    <span className="text-purple-400 font-semibold">Developed</span> Virtual <span className="text-purple-400 font-semibold">Historian</span> Chatbot enabling contextual search across 100K+ digitized family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Engineered a{" "}
