@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 export default function Index() {
   const [profileImage, setProfileImage] = useState<string | null>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
