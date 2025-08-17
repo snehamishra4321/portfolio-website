@@ -516,20 +516,22 @@ export default function Index() {
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 backdrop-blur-sm rounded-2xl p-8 border border-cyan-400/20">
-                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
-                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-3"></div>
-                  Role & Impact
-                </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Building <span className="text-cyan-400 font-semibold">agentic search platforms</span> for semiconductor intelligence, focusing on LLM fine-tuning and RAG systems that serve thousands of daily queries.
+                    <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Leading development of <span className="text-cyan-400 font-semibold">scalable backend services</span> that power AI-driven cross-reference tools, optimizing end-to-end LLM pipelines for production.
+                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> powering thousands of daily queries with higher contextual accuracy.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Delivered <span className="text-cyan-400 font-semibold">retrieval systems</span> that connect datasheets with sourcing data, enabling faster, explainable cross-references.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Scaled backend services for real-time workloads, supporting high-throughput usage across enterprise teams.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
-                      Key Achievement: Reduced query response time by 40% through pipeline optimization
+                      Optimized production pipelines, improving query speed, reliability, and user experience.
                     </p>
                   </div>
                 </div>
