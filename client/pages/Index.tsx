@@ -475,7 +475,7 @@ export default function Index() {
                   </p>
                 </div>
 
-                <p className="text-white/80 text-lg leading-relaxed">
+                <p className={`text-lg leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
                   Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover!
                 </p>
               </div>
