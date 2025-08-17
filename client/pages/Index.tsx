@@ -586,20 +586,22 @@ export default function Index() {
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
-                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
-                  <div className="w-3 h-3 bg-purple-400 rounded-full mr-3"></div>
-                  Role & Impact
-                </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Conducted <span className="text-purple-400 font-semibold">applied research</span> in AI, NLP, and Computer Vision for genealogy applications, developing the AI Virtual Historian Chatbot.
+                    <span className="text-purple-400 font-semibold">Developed an AI-powered Virtual Historian,</span> enabling contextual search across 100K+ digitized family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built <span className="text-purple-400 font-semibold">RAG pipeline</span> processing 100K+ family history books with hybrid retrieval and multimodal document understanding.
+                    Engineered a <span className="text-purple-400 font-semibold">retrieval-augmented system</span> that blended structured metadata with semantic search for rich historical queries.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve discovery.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Implemented <span className="text-purple-400 font-semibold">multimodal document understanding,</span> connecting text and images for genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      Presented to executive panel • MRR: 0.85 • ROUGE-1: 0.78
+                      Presented research outcomes to senior leadership, influencing future product directions.
                     </p>
                   </div>
                 </div>
