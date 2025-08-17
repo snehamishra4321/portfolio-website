@@ -502,13 +502,13 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Current Work Section */}
+      {/* Work & Impact Section */}
       <section id="work" className="relative z-10 px-6 lg:px-12 py-24">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
-            Current{" "}
+            Work &{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Work
+              Impact
             </span>
           </h2>
 
