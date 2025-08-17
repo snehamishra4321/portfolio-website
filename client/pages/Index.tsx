@@ -549,7 +549,7 @@ export default function Index() {
               </div>
 
               {/* Right Box - Skills */}
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+              <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <h4 className="text-xl font-bold text-white mb-6 flex items-center">
                   <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
                   Key Skills
@@ -577,7 +577,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">�� Programming & Tools</h5>
+                    <h5 className="text-white font-semibold mb-2">💻 Programming & Tools</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">Python</span>
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">PyTorch</span>
