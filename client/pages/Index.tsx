@@ -624,12 +624,7 @@ export default function Index() {
                     Built <span className="text-cyan-400 font-semibold">domain-adapted</span> language models with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Delivered{" "}
-                    <span className="text-cyan-400 font-semibold">
-                      explainable search systems
-                    </span>{" "}
-                    that connect datasheets with sourcing data, enabling faster
-                    cross-references across enterprise chat systems.
+                    Delivered <span className="text-cyan-400 font-semibold">explainable</span> search systems that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Drove new{" "}
