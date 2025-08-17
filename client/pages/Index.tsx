@@ -475,7 +475,7 @@ export default function Index() {
           {/* Bottom - Personality Tags */}
           <div className="flex flex-wrap justify-center gap-4 mt-12 pt-8 border-t border-white/10">
             <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">
-              🎨 Creative Explorer
+              �� Creative Explorer
             </span>
             <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
               🎓 Texas A&M Alum
@@ -754,17 +754,32 @@ export default function Index() {
           <div className="bg-gradient-to-r from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-purple-400/20 mb-12">
             <h3 className="text-2xl font-bold text-white mb-2">
               Research Experience at{" "}
-              <span className="text-purple-400">Texas A&M University</span>
+              <span className="text-purple-400 text-3xl">Texas A&M University</span>
             </h3>
             <p className="text-white/60 text-lg mb-6">2022 – 2024</p>
-            <p className="text-white/80 text-lg leading-relaxed mb-4">
-              Conducted computational research in AI/ML applications for biomedical imaging and mechanobiology,
-              bridging computer science with healthcare innovation.
-            </p>
-            <p className="text-white/80 text-lg leading-relaxed">
-              Developed deep learning models for medical image analysis, contributing to breakthrough research
-              in cancer biomarker detection and cellular mechanics.
-            </p>
+
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-lg font-semibold text-purple-300 mb-2">Dr. Lele's Mechanobiology Lab</h4>
+                <p className="text-white/80 leading-relaxed">
+                  Developed multi-class classification models for Lamin B1 stained breast cancer tissue imaging to investigate nuclear wrinkling as a cancer biomarker.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold text-cyan-300 mb-2">High-Performance Research Computing Lab</h4>
+                <p className="text-white/80 leading-relaxed">
+                  Built scholar recommendation system using LLMs, now utilized by TAMU's VP of Research for 2000+ grants annually. Fine-tuned Llama2 with QLoRA and RAG techniques.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold text-emerald-300 mb-2">Statistics & Bioinformatics Lab</h4>
+                <p className="text-white/80 leading-relaxed">
+                  Architected custom deep learning models for diabetes treatment regimens using EHRs for 20k+ patients with novel surrogate loss functions.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Published Research */}
