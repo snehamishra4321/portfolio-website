@@ -867,11 +867,7 @@ export default function Index() {
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Led development of{" "}
-                    <span className="text-emerald-400 font-semibold">
-                      enterprise-scale analytics platforms,
-                    </span>{" "}
-                    powering insights for 2M+ global users across tools.
+                    Led development of <span className="text-emerald-400 font-semibold">enterprise-scale</span> analytics platforms, powering insights for 2M+ global users across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Built{" "}
