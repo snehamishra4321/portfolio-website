@@ -572,7 +572,7 @@ export default function Index() {
           {/* Bottom - Personality Tags */}
           <div className="flex flex-wrap justify-center gap-4 mt-12 pt-8 border-t border-white/10">
             <span className="bg-cyan-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
-              🎨 Design Thinker
+              🎨 Creator
             </span>
             <span className="bg-purple-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               🎓 Texas A&M Alum
