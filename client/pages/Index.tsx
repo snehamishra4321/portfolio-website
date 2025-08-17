@@ -1,5 +1,121 @@
 import { useState, useEffect, useRef } from "react";
 
+interface JourneyCardProps {
+  title: string;
+  company: string;
+  period: string;
+  tagColor: 'cyan' | 'purple' | 'emerald';
+  summary: string;
+  highlights: string[];
+  achievements: string[];
+  skills: string[];
+}
+
+function JourneyCard({ title, company, period, tagColor, summary, highlights, achievements, skills }: JourneyCardProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const colorMap = {
+    cyan: {
+      bg: 'from-cyan-500/10 to-cyan-500/5',
+      border: 'border-cyan-400/30',
+      text: 'text-cyan-400',
+      button: 'bg-cyan-500/20 hover:bg-cyan-500/30',
+      skill: 'bg-cyan-500/20 text-cyan-300'
+    },
+    purple: {
+      bg: 'from-purple-500/10 to-purple-500/5',
+      border: 'border-purple-400/30',
+      text: 'text-purple-400',
+      button: 'bg-purple-500/20 hover:bg-purple-500/30',
+      skill: 'bg-purple-500/20 text-purple-300'
+    },
+    emerald: {
+      bg: 'from-emerald-500/10 to-emerald-500/5',
+      border: 'border-emerald-400/30',
+      text: 'text-emerald-400',
+      button: 'bg-emerald-500/20 hover:bg-emerald-500/30',
+      skill: 'bg-emerald-500/20 text-emerald-300'
+    }
+  };
+
+  const colors = colorMap[tagColor];
+
+  return (
+    <div className={`bg-gradient-to-r ${colors.bg} backdrop-blur-sm rounded-2xl p-6 lg:p-8 border ${colors.border} transition-all duration-500`}>
+      {/* Header */}
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+        <div className="mb-4 lg:mb-0">
+          <h3 className="text-2xl font-bold text-white mb-1">{title}</h3>
+          <p className={`text-xl font-semibold ${colors.text} mb-1`}>{company}</p>
+          <p className="text-white/60 text-sm">{period}</p>
+        </div>
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className={`${colors.button} text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 flex items-center space-x-2 self-start`}
+        >
+          <span>{isExpanded ? 'Less Details' : 'More Details'}</span>
+          <svg
+            className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      </div>
+
+      {/* Summary */}
+      <p className="text-white/80 text-lg leading-relaxed mb-6">{summary}</p>
+
+      {/* Expanded Content */}
+      <div className={`overflow-hidden transition-all duration-500 ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+        <div className="space-y-6 pt-4 border-t border-white/10">
+          {/* Key Highlights */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-3">Key Highlights</h4>
+            <ul className="space-y-2">
+              {highlights.map((highlight, index) => (
+                <li key={index} className="flex items-start space-x-3">
+                  <div className={`w-2 h-2 ${colors.text.replace('text-', 'bg-')} rounded-full mt-2 flex-shrink-0`}></div>
+                  <span className="text-white/70 text-sm leading-relaxed">{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Achievements */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-3">Key Achievements</h4>
+            <ul className="space-y-2">
+              {achievements.map((achievement, index) => (
+                <li key={index} className="flex items-start space-x-3">
+                  <svg className={`w-4 h-4 ${colors.text} mt-1 flex-shrink-0`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="text-white/80 text-sm leading-relaxed font-medium">{achievement}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Skills */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-3">Technologies & Skills</h4>
+            <div className="flex flex-wrap gap-2">
+              {skills.map((skill, index) => (
+                <span key={index} className={`${colors.skill} px-3 py-1 rounded-full text-sm font-medium`}>
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Index() {
   const [profileImage, setProfileImage] = useState<string | null>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
