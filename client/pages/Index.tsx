@@ -779,6 +779,8 @@ export default function Index() {
                 <h4 className="text-lg font-semibold text-cyan-300 mb-2">High-Performance Research Computing Lab</h4>
                 <p className="text-white/80 leading-relaxed">
                   Built scholar recommendation system using LLMs, now utilized by TAMU's VP of Research for 2000+ grants annually. Fine-tuned Llama2 with QLoRA and RAG techniques.
+                  <span className="text-cyan-400 font-semibold"> Performed performance benchmarking of LLMs and vision models for HPC clusters.</span>
+                  Developed LLM-Pruner, achieving 30% size reduction with baseline performance.
                 </p>
               </div>
 
