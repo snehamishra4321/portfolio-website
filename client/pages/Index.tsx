@@ -190,7 +190,7 @@ export default function Index() {
                   href="https://github.com/snehamishra4321"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300"
+                  className="bg-gradient-to-r from-gray-600 to-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-gray-500/25 transition-all duration-300 transform hover:scale-105"
                 >
                   View GitHub
                 </a>
