@@ -525,7 +525,7 @@ export default function Index() {
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 backdrop-blur-sm rounded-2xl p-8 border border-cyan-400/20">
                 <h4 className="text-lg font-bold text-white mb-4 flex items-center">
-                  🎩 Wearing Multiple Hats 🎓
+                  Multiple Hats 🎓
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
