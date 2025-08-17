@@ -420,7 +420,7 @@ export default function Index() {
             <div className="lg:col-span-2">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing the best view on a mountain trail.
+                  I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing the best view on a mountain trail!
                 </p>
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
@@ -429,12 +429,12 @@ export default function Index() {
 
                 <div className="bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-xl p-6 border-l-4 border-cyan-400/70 mb-6">
                   <p className="text-white font-medium text-lg italic">
-                    "I aim to create systems that are both thoughtful and practical, while still leaving space for exploration and creativity."
+                    "I believe great systems are both thoughtful and enduring — built with precision today, but flexible enough to grow tomorrow, always leaving room for creativity!"
                   </p>
                 </div>
 
                 <p className="text-white/80 text-lg leading-relaxed">
-                  Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover.
+                  Outside of work, I find balance in <span className="text-pink-400 font-medium">dancing, painting landscapes</span>, and seeking out hidden places that remind me there is always more to discover!
                 </p>
               </div>
             </div>
