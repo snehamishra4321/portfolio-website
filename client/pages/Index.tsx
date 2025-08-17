@@ -492,7 +492,7 @@ export default function Index() {
               🤖 AI Systems Builder
             </span>
             <span className="bg-pink-500/20 text-pink-300 px-4 py-2 rounded-full text-sm font-medium">
-              📚 Published Researcher
+              ���� Published Researcher
             </span>
             <span className="bg-indigo-500/20 text-indigo-300 px-4 py-2 rounded-full text-sm font-medium">
               🏔️ Mountain Explorer
@@ -567,7 +567,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">���� Agentic & Search Systems</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">🤖 Agentic & Search Systems</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Agentic Systems</span>
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">MCP Servers</span>
@@ -614,20 +614,20 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Pioneered the <span className="text-purple-400 font-semibold">Virtual Historian Chatbot</span>, an innovative AI system that makes 100K+ digitized family history books searchable through natural conversation.
+                    <span className="text-purple-400 font-semibold">Developed Virtual Historian Chatbot</span> enabling contextual search across 100K+ digitized family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Architected a sophisticated <span className="text-purple-400 font-semibold">hybrid RAG system</span> that intelligently combines structured genealogy metadata with semantic search capabilities for rich historical discovery.
+                    Engineered a <span className="text-purple-400 font-semibold">hybrid RAG system</span> that blended structured metadata with semantic search for rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Explored cutting-edge database architectures, comparing graph versus vector approaches to optimize relational understanding and improve <span className="text-purple-400 font-semibold">contextual awareness</span> in historical narratives.
+                    Explored graph vs. vector databases, balancing relational structure with scalable neural retrieval to improve <span className="text-purple-400 font-semibold">contextual awareness.</span>
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Advanced <span className="text-purple-400 font-semibold">multimodal document understanding</span> by seamlessly connecting textual records with visual genealogy artifacts for comprehensive family history exploration.
+                    Implemented <span className="text-purple-400 font-semibold">multimodal document understanding,</span> connecting text and images for genealogy artifacts.
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      Delivered compelling research presentations to senior leadership, directly shaping the strategic direction of future genealogy products.
+                      Presented research outcomes to senior leadership, influencing future product directions.
                     </p>
                   </div>
                 </div>
