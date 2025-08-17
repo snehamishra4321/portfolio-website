@@ -584,7 +584,7 @@ export default function Index() {
               📚 Published Researcher
             </span>
             <span className="bg-indigo-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
-              🏔️ Problem Solver
+              🏔️ Mountain lover
             </span>
             <span className="bg-yellow-500/20 text-white px-4 py-2 rounded-full text-sm font-medium">
               💃 Artist
