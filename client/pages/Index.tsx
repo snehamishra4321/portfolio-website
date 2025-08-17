@@ -750,6 +750,9 @@ export default function Index() {
                         AWS
                       </span>
                       <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Azure
+                      </span>
+                      <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
                         FAISS
                       </span>
                       <span className="bg-pink-500/20 text-white px-3 py-1 rounded-full text-sm">
