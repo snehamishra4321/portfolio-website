@@ -545,30 +545,33 @@ export default function Index() {
                 </h4>
                 <div className="space-y-5">
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">LLM & AI</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">🧠 LLM & RAG Systems</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PyTorch</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HuggingFace</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LLM Fine-tuning</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">RAG</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Context Engineering</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangGraph</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">Backend & Infrastructure</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">🔍 Search & Retrieval</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">FastAPI</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">AWS</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Docker</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Postgres</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">FAISS</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Vector Databases</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Graph-based Retrieval</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Explainable Search</span>
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-emerald-400 font-semibold mb-2">Data & ML Ops</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">☁️ Infrastructure & Deployment</h5>
                     <div className="flex flex-wrap gap-2">
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">AWS</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Docker</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Postgres</span>
                       <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Databricks</span>
                       <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">MLflow</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">FAISS</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Vector DBs</span>
                     </div>
                   </div>
                 </div>
