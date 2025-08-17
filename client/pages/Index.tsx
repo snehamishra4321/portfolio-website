@@ -653,7 +653,7 @@ export default function Index() {
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      Presented research outcomes to senior leadership, influencing future product directions.
+                      🎯 Presented research outcomes to senior leadership, influencing future product directions.
                     </p>
                   </div>
                 </div>
