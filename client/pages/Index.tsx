@@ -763,12 +763,7 @@ export default function Index() {
                     <span className="text-purple-400 font-semibold">Developed</span> Virtual <span className="text-purple-400 font-semibold">Historian</span> Chatbot enabling contextual search across 100K+ digitized family history books.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Engineered a{" "}
-                    <span className="text-purple-400 font-semibold">
-                      hybrid RAG system
-                    </span>{" "}
-                    that blended structured metadata with semantic search for
-                    rich historical queries.
+                    Engineered a <span className="text-purple-400 font-semibold">hybrid</span> RAG system that blended structured metadata with semantic search for rich historical queries.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Explored graph vs. vector databases, balancing relational
