@@ -528,17 +528,17 @@ export default function Index() {
                   Multiple Hats 🎓
                 </h4>
                 <div className="space-y-4">
-                  <p className={`leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
-                    <span className="text-cyan-600 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
+                  <p className="text-white/80 leading-relaxed">
+                    <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
-                  <p className={`leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
-                    Built <span className="text-cyan-600 font-semibold">domain-adapted language models</span> with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
+                  <p className="text-white/80 leading-relaxed">
+                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
                   </p>
-                  <p className={`leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
-                    Delivered <span className="text-cyan-600 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
+                  <p className="text-white/80 leading-relaxed">
+                    Delivered <span className="text-cyan-400 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
-                  <p className={`leading-relaxed ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
-                    Drove new <span className="text-cyan-600 font-semibold">product development</span> and built comprehensive <span className="text-cyan-600 font-semibold">evaluation systems</span> for chat across various scenarios with strong guardrails for production use cases.
+                  <p className="text-white/80 leading-relaxed">
+                    Drove new <span className="text-cyan-400 font-semibold">product development</span> and built comprehensive <span className="text-cyan-400 font-semibold">evaluation systems</span> for chat across various scenarios with strong guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
