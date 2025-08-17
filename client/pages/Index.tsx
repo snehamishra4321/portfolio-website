@@ -873,12 +873,7 @@ export default function Index() {
                     Built <span className="text-emerald-400 font-semibold">end-to-end</span> data pipelines to process and serve large-scale client datasets reliably and securely.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Owned{" "}
-                    <span className="text-emerald-400 font-semibold">
-                      product strategy
-                    </span>{" "}
-                    and delivery, bridging technical teams with business
-                    stakeholders.
+                    Owned <span className="text-emerald-400 font-semibold">product</span> strategy and delivery, bridging technical teams with business stakeholders.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Drove{" "}
