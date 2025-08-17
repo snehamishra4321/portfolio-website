@@ -529,20 +529,20 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Leading the development of <span className="text-cyan-400 font-semibold">agentic search platforms</span> that revolutionize how engineers interact with semiconductor documentation, transforming static data into intelligent, conversational experiences.
+                    <span className="text-cyan-400 font-semibold">Designed agentic search platforms</span> that transform semiconductor documentation into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Architecting <span className="text-cyan-400 font-semibold">domain-adapted language models</span> with sophisticated hybrid retrieval systems that serve thousands of daily queries, delivering unprecedented contextual accuracy for technical searches.
+                    Built <span className="text-cyan-400 font-semibold">domain-adapted language models</span> with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Creating <span className="text-cyan-400 font-semibold">explainable search systems</span> that seamlessly connect component datasheets with sourcing data, empowering rapid decision-making across enterprise chat environments.
+                    Delivered <span className="text-cyan-400 font-semibold">explainable search systems</span> that connect datasheets with sourcing data, enabling faster cross-references across enterprise chat systems.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Designing <span className="text-cyan-400 font-semibold">product concepts</span> and implementing comprehensive evaluation frameworks for conversational AI, ensuring robust performance with enterprise-grade guardrails.
+                    Designed <span className="text-cyan-400 font-semibold">product concepts</span> and built reliable evaluation systems for chat across various scenarios with strong guardrails for production use cases.
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
-                      Scaling real-time AI workloads with optimized inference pipelines and cloud-native architecture for mission-critical enterprise applications.
+                      Scaled real-time AI workloads with low-latency inference and cloud-native deployment for enterprise reliability.
                     </p>
                   </div>
                 </div>
@@ -567,7 +567,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-purple-400 font-semibold mb-2">🤖 Agentic & Search Systems</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">���� Agentic & Search Systems</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Agentic Systems</span>
                       <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">MCP Servers</span>
