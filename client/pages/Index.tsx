@@ -44,7 +44,10 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 relative overflow-hidden">
+    <div className={`min-h-screen relative overflow-hidden ${isDarkTheme
+      ? 'bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800'
+      : 'bg-gradient-to-br from-white via-gray-50 to-slate-100'
+    }`}>
       {/* Dynamic AI-inspired background */}
       <div className="fixed inset-0">
         {/* Neural network nodes */}
