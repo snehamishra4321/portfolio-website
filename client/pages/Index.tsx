@@ -568,7 +568,7 @@ export default function Index() {
                   </p>
                   <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
                     <p className="text-cyan-300 font-medium text-sm">
-                      Scaled real-time AI workloads with low-latency inference and cloud-native deployment for enterprise reliability.
+                      🚀 Scaled real-time AI workloads with low-latency inference and cloud-native deployment for enterprise reliability.
                     </p>
                   </div>
                 </div>
