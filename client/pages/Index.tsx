@@ -465,7 +465,7 @@ export default function Index() {
                   I've always been drawn to <span className="text-cyan-400 font-medium">puzzles</span>, whether it's untangling a messy dataset, figuring out how systems scale, or chasing tranquil at a mountain's crest.
                 </p>
 
-                <p className="text-white/80 text-lg leading-relaxed mb-6">
+                <p className={`text-lg leading-relaxed mb-6 ${isDarkTheme ? 'text-white/80' : 'text-gray-700'}`}>
                   Over the last <span className="text-purple-400 font-medium">5+ years</span> of my professional life, that same curiosity has guided me through building large-scale systems in industry, diving deep into research at <span className="text-emerald-400 font-medium">Texas A&M</span>, and now shaping agentic platforms in production at <span className="text-cyan-400 font-medium">Wizerr AI</span>.
                 </p>
 
