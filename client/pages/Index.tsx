@@ -507,75 +507,66 @@ export default function Index() {
           </h2>
 
           {/* Wizerr AI - Current Role */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
-            <h3 className="text-3xl font-bold text-white mb-2">
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-2">
               Machine Learning Engineer at{" "}
               <span className="text-cyan-400">Wizerr AI</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">2024 – Present</p>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      LLM Fine-Tuning & Evaluation
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      PyTorch, HuggingFace, domain-specific semiconductor datasets
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Box - Experience */}
+              <div className="bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 backdrop-blur-sm rounded-2xl p-8 border border-cyan-400/20">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-3"></div>
+                  Role & Impact
+                </h4>
+                <div className="space-y-4">
+                  <p className="text-white/80 leading-relaxed">
+                    Building <span className="text-cyan-400 font-semibold">agentic search platforms</span> for semiconductor intelligence, focusing on LLM fine-tuning and RAG systems that serve thousands of daily queries.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Leading development of <span className="text-cyan-400 font-semibold">scalable backend services</span> that power AI-driven cross-reference tools, optimizing end-to-end LLM pipelines for production.
+                  </p>
+                  <div className="bg-cyan-500/10 rounded-lg p-4 border-l-4 border-cyan-400">
+                    <p className="text-cyan-300 font-medium text-sm">
+                      Key Achievement: Reduced query response time by 40% through pipeline optimization
                     </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">PyTorch</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">HuggingFace</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      RAG Pipeline Design
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      LangChain, LangGraph, MCP, FAISS, vector DBs
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">LangChain</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">LangGraph</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">FAISS</span>
-                    </div>
                   </div>
                 </div>
               </div>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-3"></div>
+
+              {/* Right Box - Skills */}
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
+                  Key Skills
+                </h4>
+                <div className="space-y-5">
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Scalable Backend Systems
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      FastAPI, Databricks, AWS (EKS, Lambda), Postgres
-                    </p>
+                    <h5 className="text-cyan-400 font-semibold mb-2">LLM & AI</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">FastAPI</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">AWS</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">Docker</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PyTorch</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HuggingFace</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangGraph</span>
                     </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-3"></div>
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Pipeline Optimization & Monitoring
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      MLflow, CI/CD, Databricks Workflows
-                    </p>
+                    <h5 className="text-purple-400 font-semibold mb-2">Backend & Infrastructure</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">MLflow</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">CI/CD</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">FastAPI</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">AWS</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Docker</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Postgres</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="text-emerald-400 font-semibold mb-2">Data & ML Ops</h5>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Databricks</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">MLflow</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">FAISS</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Vector DBs</span>
                     </div>
                   </div>
                 </div>
@@ -584,75 +575,65 @@ export default function Index() {
           </div>
 
           {/* Ancestry - Intern Role */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
-            <h3 className="text-3xl font-bold text-white mb-2">
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-2">
               AI-NLP-CV Intern at{" "}
               <span className="text-purple-400">Ancestry</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">Summer 2023</p>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Applied Research in NLP & CV
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      BERT, RoBERTa, GPT-4, Claude, LLaMA
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Box - Experience */}
+              <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-purple-400 rounded-full mr-3"></div>
+                  Role & Impact
+                </h4>
+                <div className="space-y-4">
+                  <p className="text-white/80 leading-relaxed">
+                    Conducted <span className="text-purple-400 font-semibold">applied research</span> in AI, NLP, and Computer Vision for genealogy applications, developing the AI Virtual Historian Chatbot.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Built <span className="text-purple-400 font-semibold">RAG pipeline</span> processing 100K+ family history books with hybrid retrieval and multimodal document understanding.
+                  </p>
+                  <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
+                    <p className="text-purple-300 font-medium text-sm">
+                      Presented to executive panel • MRR: 0.85 • ROUGE-1: 0.78
                     </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">BERT</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">GPT-4</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">LLaMA</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      RAG Architecture & Hybrid Retrieval
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      LangChain, Pinecone, ElasticSearch, cross-encoder reranking
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">LangChain</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">Pinecone</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">ElasticSearch</span>
-                    </div>
                   </div>
                 </div>
               </div>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-3"></div>
+
+              {/* Right Box - Skills */}
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
+                  Key Skills
+                </h4>
+                <div className="space-y-5">
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Multimodal Document Processing
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      OCR pipelines, embeddings, image-text alignment for genealogy records
-                    </p>
+                    <h5 className="text-purple-400 font-semibold mb-2">Research & Models</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">OCR</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">Embeddings</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">BERT</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">GPT-4</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">LLaMA</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Claude</span>
                     </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-3"></div>
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Evaluation & Benchmarking
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      MRR (0.85), ROUGE-1 (0.78), latency vs. precision trade-offs
-                    </p>
+                    <h5 className="text-cyan-400 font-semibold mb-2">RAG & Retrieval</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">MRR: 0.85</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">ROUGE-1: 0.78</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">ElasticSearch</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Cross-encoder</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="text-emerald-400 font-semibold mb-2">Computer Vision</h5>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">OCR</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Embeddings</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Image-Text Alignment</span>
                     </div>
                   </div>
                 </div>
@@ -661,76 +642,65 @@ export default function Index() {
           </div>
 
           {/* HCLTech - Previous Role */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-white/10 mb-16">
-            <h3 className="text-3xl font-bold text-white mb-2">
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-2">
               Data & Analytics Engineer / Product Owner at{" "}
               <span className="text-emerald-400">HCLTech</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">2019 – 2022</p>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Enterprise Data Engineering
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      Databricks, Redshift, Airflow, Kafka
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Left Box - Experience */}
+              <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-emerald-400 rounded-full mr-3"></div>
+                  Role & Impact
+                </h4>
+                <div className="space-y-4">
+                  <p className="text-white/80 leading-relaxed">
+                    Led <span className="text-emerald-400 font-semibold">enterprise data engineering</span> initiatives, building robust pipelines and analytics platforms for Fortune 500 clients.
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    Served as <span className="text-emerald-400 font-semibold">Product Owner</span> managing delivery for 8+ clients on $10M+ projects, driving product strategy and stakeholder management.
+                  </p>
+                  <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
+                    <p className="text-emerald-300 font-medium text-sm">
+                      Processed 2M+ events/hr • 8+ client deliveries • $10M+ project value
                     </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">Databricks</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">Redshift</span>
-                      <span className="bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded text-xs">Airflow</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-cyan-400 rounded-full mt-3"></div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      ETL & Real-Time Processing
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      Spark, SQL pipelines, high-throughput data streams (2M+ events/hr)
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">Spark</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">SQL</span>
-                      <span className="bg-cyan-500/20 text-cyan-300 px-2 py-1 rounded text-xs">2M+ events/hr</span>
-                    </div>
                   </div>
                 </div>
               </div>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-3"></div>
+
+              {/* Right Box - Skills */}
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h4 className="text-xl font-bold text-white mb-6 flex items-center">
+                  <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
+                  Key Skills
+                </h4>
+                <div className="space-y-5">
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Product Ownership & Roadmapping
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      Agile NPD, stakeholder management, delivery for 8+ clients ($10M projects)
-                    </p>
+                    <h5 className="text-emerald-400 font-semibold mb-2">Data Engineering</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">Agile</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">8+ clients</span>
-                      <span className="bg-purple-500/20 text-purple-300 px-2 py-1 rounded text-xs">$10M projects</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Databricks</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Redshift</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Airflow</span>
+                      <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-sm">Kafka</span>
                     </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-3"></div>
                   <div>
-                    <h4 className="text-xl font-semibold text-white mb-2">
-                      Analytics & Visualization
-                    </h4>
-                    <p className="text-white/70 mb-3">
-                      PowerBI, Tableau, interactive dashboards for business units
-                    </p>
+                    <h5 className="text-cyan-400 font-semibold mb-2">Processing & Analytics</h5>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">PowerBI</span>
-                      <span className="bg-pink-500/20 text-pink-300 px-2 py-1 rounded text-xs">Tableau</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Spark</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">SQL</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PowerBI</span>
+                      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Tableau</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="text-purple-400 font-semibold mb-2">Product & Leadership</h5>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Agile</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Stakeholder Mgmt</span>
+                      <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Roadmapping</span>
                     </div>
                   </div>
                 </div>
