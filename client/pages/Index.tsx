@@ -651,7 +651,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">🔄 Hybrid RAG & Retrieval</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">🔄 Hybrid RAG & Retrieval</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">LangChain</span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Pinecone</span>
@@ -661,7 +661,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">☁️ Computer Vision & AWS</h5>
+                    <h5 className="text-emerald-400 font-semibold mb-2">☁️ Computer Vision & AWS</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">OCR</span>
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">AWS S3</span>
