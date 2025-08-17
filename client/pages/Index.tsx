@@ -662,7 +662,7 @@ export default function Index() {
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-emerald-400 font-semibold">Led development of enterprise-scale analytics platforms,</span> powering insights for 50K+ global users.
+                    <span className="text-emerald-400 font-semibold">Led development of enterprise-scale analytics platforms,</span> powering insights for 2M+ global users across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Built <span className="text-emerald-400 font-semibold">end-to-end data pipelines</span> to process and serve large-scale client datasets reliably and securely.
@@ -675,7 +675,7 @@ export default function Index() {
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
-                      Mentored junior engineers, fostering collaboration and technical growth within the team.
+                      👥 Mentored junior engineers, fostering collaboration and technical growth within the team.
                     </p>
                   </div>
                 </div>
