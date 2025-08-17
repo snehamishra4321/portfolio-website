@@ -150,26 +150,20 @@ export default function Index() {
             {/* Content - takes 3 columns */}
             <div className="lg:col-span-3 space-y-8">
               <div className="space-y-4">
-                <h1 className={`text-5xl lg:text-6xl font-bold leading-tight ${
-                  isDarkTheme ? 'text-white' : 'text-gray-900'
-                }`}>
+                <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm{" "}
                   <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
                     Sneha!
                   </span>
                 </h1>
-                <div className={`text-2xl lg:text-3xl font-light ${
-                  isDarkTheme ? 'text-white/80' : 'text-gray-700'
-                }`}>
-                  <span className="text-cyan-600">
+                <div className="text-2xl lg:text-3xl text-white/80 font-light">
+                  <span className="text-cyan-400">
                     Machine Learning Engineer
                   </span>
                 </div>
               </div>
 
-              <p className={`text-xl lg:text-2xl leading-relaxed ${
-                isDarkTheme ? 'text-white/70' : 'text-gray-600'
-              }`}>
+              <p className="text-xl lg:text-2xl text-white/70 leading-relaxed">
                 Rooted in traditional ML and evolving with modern AI, I build
                 systems that matter — reliable, trustworthy, and built to last.
                 Currently building{" "}
