@@ -723,7 +723,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">📊 Data Science & Analytics</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">📊 Data Science & Analytics</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">Spark</span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">SQL</span>
@@ -733,7 +733,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-white font-semibold mb-2">👔 Product & Leadership</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">👔 Product & Leadership</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Agile</span>
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">Stakeholder Mgmt</span>
