@@ -450,7 +450,7 @@ export default function Index() {
             {/* Right Column - Key Belief & Values */}
             <div className="space-y-6">
               <div className="bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-2xl p-6 border border-cyan-400/20">
-                <h3 className={`text-xl font-bold mb-4 ${isDarkTheme ? 'text-white' : 'text-gray-900'}`}>Core Belief</h3>
+                <h3 className="text-xl font-bold text-white mb-4">Core Belief</h3>
                 <p className="text-cyan-400 font-semibold text-lg italic leading-relaxed">
                   "Build things that matter, and build them to last"
                 </p>
@@ -766,7 +766,7 @@ export default function Index() {
               Research Experience at{" "}
               <span className="text-purple-400 text-3xl">Texas A&M University</span>
             </h3>
-            <p className="text-white/60 text-lg mb-6">2022 �� 2024</p>
+            <p className="text-white/60 text-lg mb-6">2022 – 2024</p>
 
             <div className="space-y-4">
               <div>
