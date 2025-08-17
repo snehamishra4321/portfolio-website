@@ -598,7 +598,7 @@ export default function Index() {
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-2">
               AI-NLP-CV Intern at{" "}
-              <span className="text-purple-400">Ancestry</span>
+              <span className="text-purple-400 text-3xl">Ancestry</span>
             </h3>
             <p className="text-white/60 text-lg mb-8">Summer 2023</p>
             <div className="grid lg:grid-cols-2 gap-6">
