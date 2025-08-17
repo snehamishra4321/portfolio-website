@@ -421,7 +421,6 @@ export default function Index() {
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Me
             </span>
-            {" "}💼
           </h2>
 
           <div className="grid lg:grid-cols-3 gap-8 items-start">
@@ -653,7 +652,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-cyan-400 font-semibold mb-2">🔄 Hybrid RAG & Retrieval</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">�� Hybrid RAG & Retrieval</h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">LangChain</span>
                       <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
