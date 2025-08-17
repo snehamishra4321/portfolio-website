@@ -618,7 +618,7 @@ export default function Index() {
                 </h4>
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-cyan-400 font-semibold">Designed</span> <span className="text-cyan-400 font-semibold">agentic</span> search platforms with multiple tool features that turn millions of semiconductor component complex datasheets into interactive, engineer-grade intelligence.
+                    <span className="text-cyan-400 font-semibold">Designed</span> <span className="text-cyan-400 font-semibold">agentic</span> search platforms with multiple tool features that transform millions of semiconductor datasheets into interactive, engineer-grade intelligence.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Built <span className="text-cyan-400 font-semibold">domain-adapted</span> language models with hybrid retrieval systems powering thousands of daily queries with higher contextual accuracy.
