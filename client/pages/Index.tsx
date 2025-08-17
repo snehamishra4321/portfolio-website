@@ -475,7 +475,7 @@ export default function Index() {
           {/* Bottom - Personality Tags */}
           <div className="flex flex-wrap justify-center gap-4 mt-12 pt-8 border-t border-white/10">
             <span className="bg-cyan-500/20 text-cyan-300 px-4 py-2 rounded-full text-sm font-medium">
-              �� Creative Explorer
+              🎨 Creative Explorer
             </span>
             <span className="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-full text-sm font-medium">
               🎓 Texas A&M Alum
@@ -807,20 +807,27 @@ export default function Index() {
                 <p className="text-purple-400 font-semibold">
                   NPJ Precision Oncology by Nature
                 </p>
+                <a
+                  href="https://www.nature.com/articles/s41698-024-00775-8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 text-sm hover:text-cyan-300 transition-colors"
+                >
+                  View Publication →
+                </a>
               </div>
             </div>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              <span className="text-purple-400 font-semibold">Advanced computer vision research</span> investigating extreme nuclear wrinkling
-              as a novel cancer biomarker in breast cancer tissues using Lamin B1 stained imaging.
+              <span className="text-purple-400 font-semibold">Fine-tuning and experimentation project</span> for domain adaptation
+              on Lamin B1 stained breast cancer tissue images investigating extreme nuclear wrinkling as a cancer biomarker.
             </p>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
-              Implemented and compared state-of-the-art deep learning architectures including
-              <span className="text-cyan-400 font-medium"> Vision Transformers, ResNet50, and InceptionV3</span> for multi-class
-              classification tasks in medical imaging.
+              Implemented multi-class classification using <span className="text-cyan-400 font-medium">Vision Transformers, ResNet50, and InceptionV3</span>,
+              augmenting datasets and fine-tuning AI models for medical imaging applications.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
-              Contributed to groundbreaking research with potential clinical applications for early cancer detection
-              and personalized treatment strategies.
+              Additional work included fine-tuning conditional-GAN (StyleGAN2) for domain-adapted synthetic breast cancer imagery
+              and customizing V-Net model for brain CT/MRI segmentation achieving 0.87 Dice coefficient.
             </p>
           </div>
 
