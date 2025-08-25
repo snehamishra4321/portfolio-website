@@ -181,47 +181,14 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Profile Image - takes 2 columns */}
+            {/* Profile Section - takes 2 columns */}
             <div className="lg:col-span-2 flex justify-center">
-              <div className="relative group">
+              <div className="relative">
                 <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center">
-                  {profileImage ? (
-                    <img
-                      src={profileImage}
-                      alt="Sneha Mishra"
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="text-center">
-                      <div className="w-24 h-24 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg
-                          className="w-12 h-12 text-white"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                          />
-                        </svg>
-                      </div>
-                      <p className="text-white/60 text-lg">
-                        Click to upload your photo
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Upload overlay */}
-                  <div
-                    className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer"
-                    onClick={triggerImageUpload}
-                  >
-                    <div className="text-center">
+                  <div className="text-center">
+                    <div className="w-32 h-32 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center mx-auto mb-6">
                       <svg
-                        className="w-12 h-12 text-white mx-auto mb-2"
+                        className="w-16 h-16 text-white"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -230,21 +197,18 @@ export default function Index() {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                         />
                       </svg>
-                      <p className="text-white font-semibold">Upload Photo</p>
                     </div>
+                    <p className="text-white/80 text-xl font-semibold">
+                      Sneha Mishra
+                    </p>
+                    <p className="text-cyan-400 text-lg">
+                      ML Engineer & AI Researcher
+                    </p>
                   </div>
                 </div>
-
-                <input
-                  type="file"
-                  ref={fileInputRef}
-                  onChange={handleImageUpload}
-                  accept="image/*"
-                  className="hidden"
-                />
               </div>
             </div>
           </div>
