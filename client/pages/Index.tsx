@@ -404,7 +404,7 @@ export default function Index() {
       </section>
 
       {/* About Me Section */}
-      <section id="about" className="relative z-10 px-6 lg:px-12 py-24">
+      <section id="about" className="relative z-10 px-6 lg:px-12 py-24 pt-32">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
             About{" "}
@@ -527,7 +527,7 @@ export default function Index() {
       </section>
 
       {/* Work & Impact Section */}
-      <section id="work" className="relative z-10 px-6 lg:px-12 py-24">
+      <section id="work" className="relative z-10 px-6 lg:px-12 py-24 pt-32">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
             Work &{" "}
@@ -1006,7 +1006,7 @@ export default function Index() {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="relative z-10 px-6 lg:px-12 py-24">
+      <section id="research" className="relative z-10 px-6 lg:px-12 py-24 pt-32">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16">
             Research &{" "}
@@ -1199,7 +1199,7 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="relative z-10 px-6 lg:px-12 py-24">
+      <section id="contact" className="relative z-10 px-6 lg:px-12 py-24 pt-32">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8">
             Let's{" "}
