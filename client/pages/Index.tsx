@@ -647,9 +647,6 @@ export default function Index() {
                         Agentic Systems
                       </span>
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
-                        MCP Servers
-                      </span>
-                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
                         Hybrid Retrieval
                       </span>
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
@@ -657,6 +654,9 @@ export default function Index() {
                       </span>
                       <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
                         State & Memory Mgmt
+                      </span>
+                      <span className="bg-purple-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Semantic Search
                       </span>
                     </div>
                   </div>
