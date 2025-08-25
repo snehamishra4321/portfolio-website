@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 export default function Index() {
-  const [profileImage, setProfileImage] = useState<string | null>(null);
   const [hasAnimated, setHasAnimated] = useState(false);
-  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     // Trigger initial animation after component mounts
