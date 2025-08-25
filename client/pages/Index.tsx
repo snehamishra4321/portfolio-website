@@ -683,6 +683,12 @@ export default function Index() {
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
                         LangChain
                       </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        LangGraph
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        MCP Servers
+                      </span>
                     </div>
                   </div>
                   <div>
