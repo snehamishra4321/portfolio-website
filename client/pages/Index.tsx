@@ -909,7 +909,7 @@ export default function Index() {
                   <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
                   Key Skills
                 </h4>
-                <div className="space-y-5">
+                <div className="grid grid-cols-1 gap-4">
                   <div>
                     <h5 className="text-emerald-400 font-semibold mb-2">
                       🔧 Data Engineering
