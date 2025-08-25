@@ -1041,7 +1041,7 @@ export default function Index() {
                   Built scholar recommendation system using LLMs, now utilized
                   by TAMU's VP of Research for 2000+ grants annually. Fine-tuned
                   Llama2 with QLoRA and RAG techniques. Performed{" "}
-                  <span className="text-cyan-400 font-semibold">
+                  <span className="text-blue-200 font-semibold">
                     performance benchmarking
                   </span>{" "}
                   of LLMs and vision models for HPC clusters. Developed
@@ -1100,7 +1100,7 @@ export default function Index() {
             </div>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
               Applied{" "}
-              <span className="text-purple-400 font-semibold">
+              <span className="text-blue-200 font-semibold">
                 fine-tuning and experimentation
               </span>{" "}
               methods for domain adaptation on Lamin B1 stained breast cancer
@@ -1109,17 +1109,17 @@ export default function Index() {
             </p>
             <p className="text-white/70 text-lg leading-relaxed mb-4">
               Implemented multi-class classification through{" "}
-              <span className="text-cyan-400 font-medium">
+              <span className="text-blue-200 font-medium">
                 dataset augmentation
               </span>{" "}
               and
-              <span className="text-cyan-400 font-medium"> fine-tuning</span> of
+              <span className="text-blue-200 font-medium"> fine-tuning</span> of
               Vision Transformers, ResNet50, and InceptionV3 for medical imaging
               applications.
             </p>
             <p className="text-white/70 text-lg leading-relaxed">
               Additional work included{" "}
-              <span className="text-purple-400 font-semibold">
+              <span className="text-blue-200 font-semibold">
                 fine-tuning conditional-GAN
               </span>{" "}
               (StyleGAN2) architecture for domain-adapted synthetic breast
