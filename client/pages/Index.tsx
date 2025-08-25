@@ -184,27 +184,18 @@ export default function Index() {
             {/* Profile Section - takes 2 columns */}
             <div className="lg:col-span-2 flex justify-center">
               <div className="relative">
-                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <svg
-                        className="w-16 h-16 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                        />
-                      </svg>
-                    </div>
-                    <p className="text-white/80 text-xl font-semibold">
+                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-white/10 relative">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F2b51cfe50cac4286903ef1be669cf407%2Fdf0779f117924c49a837b854d2f73904?format=webp&width=800"
+                    alt="Sneha Mishra - ML Engineer & AI Researcher"
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Subtle overlay with name */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 text-center">
+                    <p className="text-white text-lg font-semibold">
                       Sneha Mishra
                     </p>
-                    <p className="text-cyan-400 text-lg">
+                    <p className="text-cyan-400 text-sm">
                       ML Engineer & AI Researcher
                     </p>
                   </div>
