@@ -415,7 +415,7 @@ export default function Index() {
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
                   I've always been drawn to{" "}
-                  <span className="text-cyan-400 font-medium">puzzles</span>,
+                  <span className="text-gray-300 font-medium">puzzles</span>,
                   whether it's untangling a messy dataset, figuring out how
                   systems scale, or navigating the hidden patterns in complex
                   problems.
@@ -423,16 +423,16 @@ export default function Index() {
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
                   Over the last{" "}
-                  <span className="text-purple-400 font-medium">5+ years</span>{" "}
+                  <span className="text-gray-300 font-medium">5+ years</span>{" "}
                   of my professional life, that same curiosity has driven me
                   through building large-scale AI systems in enterprises, diving
                   deep into advancing ML research at{" "}
-                  <span className="text-emerald-400 font-medium">
+                  <span className="text-gray-300 font-medium">
                     Texas A&M
                   </span>
                   , and now being part of the founding engineering team shaping
                   agentic search platform at{" "}
-                  <span className="text-cyan-400 font-medium">Wizerr AI</span>,
+                  <span className="text-gray-300 font-medium">Wizerr AI</span>,
                   in a high growth startup environment.
                 </p>
 
@@ -446,7 +446,7 @@ export default function Index() {
 
                 <p className="text-white/80 text-lg leading-relaxed">
                   Outside of work, I find balance in{" "}
-                  <span className="text-pink-400 font-medium">
+                  <span className="text-gray-300 font-medium">
                     dancing, painting landscapes
                   </span>
                   , and seeking out hidden places that remind me there is always
