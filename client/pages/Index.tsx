@@ -600,7 +600,7 @@ export default function Index() {
                   <div className="w-3 h-3 bg-white rounded-full mr-3"></div>
                   Key Skills
                 </h4>
-                <div className="space-y-4">
+                <div className="grid grid-cols-1 gap-4">
                   <div>
                     <h5 className="text-cyan-400 font-semibold mb-2">
                       🧠 Core AI and Model Systems
@@ -1094,7 +1094,7 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="text-cyan-400 text-sm hover:text-cyan-300 transition-colors"
                 >
-                  View Publication ��
+                  View Publication →
                 </a>
               </div>
             </div>
