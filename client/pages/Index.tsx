@@ -94,7 +94,7 @@ export default function Index() {
       </div>
 
       {/* Header */}
-      <header className="relative z-10 flex items-center justify-between p-6 lg:px-12">
+      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:px-12 bg-black/80 backdrop-blur-md border-b border-white/10">
         <div className="text-white text-xl font-semibold tracking-wide">
           Sneha Mishra
         </div>
@@ -127,7 +127,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative z-10 px-6 lg:px-12 py-16 lg:py-24 min-h-screen flex items-center">
+      <section className="relative z-10 px-6 lg:px-12 py-16 lg:py-24 pt-32 min-h-screen flex items-center">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid lg:grid-cols-5 gap-12 items-center">
             {/* Content - takes 3 columns */}
@@ -158,9 +158,9 @@ export default function Index() {
                   href="https://www.wizerr.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-400 font-semibold hover:text-emerald-300 transition-colors"
+                  className="text-emerald-400 font-semibold hover:text-emerald-300 transition-colors underline decoration-emerald-400 hover:decoration-emerald-300 decoration-2 underline-offset-2"
                 >
-                  Wizerr AI
+                  Wizerr AI 🔗
                 </a>
                 .
               </p>
@@ -208,9 +208,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box1")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(60px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.8s ease-out 0.3s" : "none",
+                  transition: hasAnimated ? "all 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-cyan-500/5 to-cyan-500/10 rounded-xl p-4 border-l-4 border-cyan-400/70 h-20">
@@ -247,9 +247,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box2")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(60px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.8s ease-out 0.5s" : "none",
+                  transition: hasAnimated ? "all 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.5s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-purple-500/5 to-purple-500/10 rounded-xl p-4 border-l-4 border-purple-400/70 h-20">
@@ -289,9 +289,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box3")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(60px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.8s ease-out 0.7s" : "none",
+                  transition: hasAnimated ? "all 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.7s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-emerald-500/5 to-emerald-500/10 rounded-xl p-4 border-l-4 border-emerald-400/70 h-20">
@@ -328,9 +328,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box4")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(60px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.8s ease-out 0.9s" : "none",
+                  transition: hasAnimated ? "all 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.9s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-pink-500/5 to-pink-500/10 rounded-xl p-4 border-l-4 border-pink-400/70 h-20">
@@ -892,21 +892,18 @@ export default function Index() {
                     application rollouts, ensuring performance, scalability, and
                     maintainability.
                   </p>
-                  <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
-                    <p className="text-emerald-300 font-medium text-sm">
-                      🏆 Received spot awards for{" "}
-                      <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
-                      and{" "}
-                      <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
-                      for two consecutive quarters [Q1, Q2 2021].
-                    </p>
-                  </div>
-                  <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
-                    <p className="text-emerald-300 font-medium text-sm">
-                      👥 Mentored junior engineers, fostering collaboration and
-                      technical growth within the team.
-                    </p>
-                  </div>
+                  <p className="text-white/80 leading-relaxed">
+                    • Received spot awards for{" "}
+                    <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
+                    and{" "}
+                    <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
+                    for two consecutive quarters [Q1, Q2 2021].
+                  </p>
+                  <p className="text-white/80 leading-relaxed">
+                    • Mentored{" "}
+                    <span className="text-blue-200 font-semibold">junior engineers</span>, fostering collaboration and
+                    technical growth within the team.
+                  </p>
                 </div>
               </div>
 
