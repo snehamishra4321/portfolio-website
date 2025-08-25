@@ -733,11 +733,11 @@ export default function Index() {
               <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 backdrop-blur-sm rounded-2xl p-8 border border-purple-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    <span className="text-purple-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       Developed
                     </span>{" "}
                     Virtual{" "}
-                    <span className="text-purple-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       Historian
                     </span>{" "}
                     Chatbot enabling contextual search across 100K+ digitized
@@ -745,7 +745,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Engineered a{" "}
-                    <span className="text-purple-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       hybrid
                     </span>{" "}
                     RAG system that blended structured metadata with semantic
@@ -754,14 +754,14 @@ export default function Index() {
                   <p className="text-white/80 leading-relaxed">
                     Explored graph vs. vector databases, balancing relational
                     structure with scalable neural retrieval to improve{" "}
-                    <span className="text-purple-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       contextual
                     </span>{" "}
                     awareness.
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Implemented{" "}
-                    <span className="text-purple-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       multimodal
                     </span>{" "}
                     document understanding, connecting text and images for
