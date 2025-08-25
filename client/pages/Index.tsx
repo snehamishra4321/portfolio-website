@@ -930,6 +930,15 @@ export default function Index() {
                       <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
                         Kafka
                       </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        ETL/ELT
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Snowflake
+                      </span>
+                      <span className="bg-emerald-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        BigQuery
+                      </span>
                     </div>
                   </div>
                   <div>
