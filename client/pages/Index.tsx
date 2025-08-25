@@ -190,15 +190,6 @@ export default function Index() {
                     alt="Sneha Mishra - ML Engineer & AI Researcher"
                     className="w-full h-full object-cover"
                   />
-                  {/* Subtle overlay with name */}
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 text-center">
-                    <p className="text-white text-lg font-semibold">
-                      Sneha Mishra
-                    </p>
-                    <p className="text-cyan-400 text-sm">
-                      ML Engineer & AI Researcher
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
