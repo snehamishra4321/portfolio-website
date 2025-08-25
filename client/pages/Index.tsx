@@ -769,8 +769,7 @@ export default function Index() {
                   </p>
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
-                      🎯 Presented research outcomes to senior leadership,
-                      influencing future product directions, selected as best intern project selected for executive panel show amidst 30 teams.
+                      🎯 Presented research outcomes in executive panel as best intern project among 30 teams, influencing future product strategy.
                     </p>
                   </div>
                 </div>
@@ -893,17 +892,19 @@ export default function Index() {
                     maintainability.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    • Received spot awards for{" "}
-                    <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
-                    and{" "}
-                    <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
-                    for two consecutive quarters [Q1, Q2 2021].
-                  </p>
-                  <p className="text-white/80 leading-relaxed">
                     • Mentored{" "}
                     <span className="text-blue-200 font-semibold">junior engineers</span>, fostering collaboration and
                     technical growth within the team.
                   </p>
+                  <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
+                    <p className="text-emerald-300 font-medium text-sm">
+                      🏆 Received spot awards for{" "}
+                      <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
+                      and{" "}
+                      <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
+                      for two consecutive quarters [Q1, Q2 2021].
+                    </p>
+                  </div>
                 </div>
               </div>
 
