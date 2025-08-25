@@ -154,9 +154,14 @@ export default function Index() {
                   agentic search platforms
                 </span>{" "}
                 at{" "}
-                <span className="text-emerald-400 font-semibold">
+                <a
+                  href="https://www.wizerr.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 font-semibold hover:text-emerald-300 transition-colors"
+                >
                   Wizerr AI
-                </span>
+                </a>
                 .
               </p>
 
@@ -203,9 +208,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box1")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.6s ease-out 0.2s" : "none",
+                  transition: hasAnimated ? "all 0.8s ease-out 0.3s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-cyan-500/5 to-cyan-500/10 rounded-xl p-4 border-l-4 border-cyan-400/70 h-20">
@@ -242,9 +247,9 @@ export default function Index() {
                 className={`w-full lg:w-[45%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box2")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.6s ease-out 0.4s" : "none",
+                  transition: hasAnimated ? "all 0.8s ease-out 0.5s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-purple-500/5 to-purple-500/10 rounded-xl p-4 border-l-4 border-purple-400/70 h-20">
@@ -284,9 +289,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box3")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.6s ease-out 0.6s" : "none",
+                  transition: hasAnimated ? "all 0.8s ease-out 0.7s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-emerald-500/5 to-emerald-500/10 rounded-xl p-4 border-l-4 border-emerald-400/70 h-20">
@@ -323,9 +328,9 @@ export default function Index() {
                 className={`w-full lg:w-[40%] cursor-pointer ${hasAnimated ? "opacity-100" : "opacity-0"}`}
                 onClick={() => handleBoxClick("box4")}
                 style={{
-                  transform: hasAnimated ? "translateY(0)" : "translateY(20px)",
+                  transform: hasAnimated ? "translateY(0)" : "translateY(40px)",
                   opacity: hasAnimated ? 1 : 0,
-                  transition: hasAnimated ? "all 0.6s ease-out 0.8s" : "none",
+                  transition: hasAnimated ? "all 0.8s ease-out 0.9s" : "none",
                 }}
               >
                 <div className="relative bg-gradient-to-r from-pink-500/5 to-pink-500/10 rounded-xl p-4 border-l-4 border-pink-400/70 h-20">
@@ -765,7 +770,7 @@ export default function Index() {
                   <div className="bg-purple-500/10 rounded-lg p-4 border-l-4 border-purple-400">
                     <p className="text-purple-300 font-medium text-sm">
                       🎯 Presented research outcomes to senior leadership,
-                      influencing future product directions.
+                      influencing future product directions, selected as best intern project selected for executive panel show amidst 30 teams.
                     </p>
                   </div>
                 </div>
@@ -852,13 +857,13 @@ export default function Index() {
               Data & Analytics Engineer / Product Owner at{" "}
               <span className="text-emerald-400 text-3xl">HCLTech</span>
             </h3>
-            <p className="text-white/60 text-lg mb-8">2021 – 2022</p>
+            <p className="text-white/60 text-lg mb-8">2019-2022</p>
             <div className="grid lg:grid-cols-2 gap-6">
               {/* Left Box - Experience */}
               <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 backdrop-blur-sm rounded-2xl p-8 border border-emerald-400/20">
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
-                    Led development of{" "}
+                    • Led development of{" "}
                     <span className="text-blue-200 font-semibold">
                       enterprise-scale
                     </span>{" "}
@@ -866,7 +871,7 @@ export default function Index() {
                     across tools.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Built{" "}
+                    • Built{" "}
                     <span className="text-blue-200 font-semibold">
                       end-to-end
                     </span>{" "}
@@ -874,19 +879,28 @@ export default function Index() {
                     datasets reliably and securely.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Owned{" "}
+                    • Owned{" "}
                     <span className="text-blue-200 font-semibold">product</span>{" "}
                     strategy and delivery, bridging technical teams with
                     business stakeholders.
                   </p>
                   <p className="text-white/80 leading-relaxed">
-                    Drove{" "}
+                    • Drove{" "}
                     <span className="text-blue-200 font-semibold">
                       enterprise
                     </span>{" "}
                     application rollouts, ensuring performance, scalability, and
                     maintainability.
                   </p>
+                  <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
+                    <p className="text-emerald-300 font-medium text-sm">
+                      🏆 Received spot awards for{" "}
+                      <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
+                      and{" "}
+                      <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
+                      for two consecutive quarters [Q1, Q2 2021].
+                    </p>
+                  </div>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
                       👥 Mentored junior engineers, fostering collaboration and
@@ -1016,7 +1030,7 @@ export default function Index() {
 
             <div className="space-y-4">
               <div>
-                <h4 className="text-lg font-semibold text-purple-300 mb-2">
+                <h4 className="text-lg font-semibold text-blue-200 mb-2">
                   Dr. Lele's Mechanobiology Lab
                 </h4>
                 <p className="text-white/80 leading-relaxed">
@@ -1027,7 +1041,7 @@ export default function Index() {
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold text-cyan-300 mb-2">
+                <h4 className="text-lg font-semibold text-blue-200 mb-2">
                   High-Performance Research Computing Lab
                 </h4>
                 <p className="text-white/80 leading-relaxed">
@@ -1044,7 +1058,7 @@ export default function Index() {
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold text-emerald-300 mb-2">
+                <h4 className="text-lg font-semibold text-blue-200 mb-2">
                   Statistics & Bioinformatics Lab
                 </h4>
                 <p className="text-white/80 leading-relaxed">
