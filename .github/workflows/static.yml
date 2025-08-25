@@ -40,6 +40,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build:client
+        env:
+          NODE_ENV: production
       - name: Add .nojekyll file
         run: touch dist/.nojekyll
       - name: Setup Pages
