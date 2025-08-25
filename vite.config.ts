@@ -5,7 +5,8 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => {
-  const isGitHubPages = process.env.GITHUB_ACTIONS === "true" || command === "build";
+  const isGitHubPages =
+    process.env.GITHUB_ACTIONS === "true" || command === "build";
   return {
     base: isGitHubPages ? "/portfolio-website/" : "/",
     server: {
