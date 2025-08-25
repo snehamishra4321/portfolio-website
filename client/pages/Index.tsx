@@ -603,26 +603,38 @@ export default function Index() {
                 <div className="space-y-4">
                   <div>
                     <h5 className="text-cyan-400 font-semibold mb-2">
-                      🧠 Foundation Models (LLMs, Multimodal)
+                      🧠 Core AI and Model Systems
                     </h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
                         LLM Fine-tuning
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
-                        Foundation Models
+                        Model Adaptation
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
-                        State-of-the-Art Models
-                      </span>
-                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
-                        Context Engineering
+                        Retrieval Augmented Generation
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
                         Prompt Engineering
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Context Engineering
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Model Evaluation
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Safety Guardrails
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
                         LLM Systems Optimization
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Inference Scaling
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Cost Optimization
                       </span>
                     </div>
                   </div>
