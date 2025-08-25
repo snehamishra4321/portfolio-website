@@ -25,7 +25,6 @@ export default function Index() {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
 
-
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
       {/* Dynamic AI-inspired background */}
@@ -423,14 +422,12 @@ export default function Index() {
 
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
                   Over the last{" "}
-                  <span className="text-blue-200 font-medium">5+ years</span>{" "}
-                  of my professional life, that same curiosity has driven me
+                  <span className="text-blue-200 font-medium">5+ years</span> of
+                  my professional life, that same curiosity has driven me
                   through building large-scale AI systems in enterprises, diving
                   deep into advancing ML research at{" "}
-                  <span className="text-blue-200 font-medium">
-                    Texas A&M
-                  </span>
-                  , and now being part of the founding engineering team shaping
+                  <span className="text-blue-200 font-medium">Texas A&M</span>,
+                  and now being part of the founding engineering team shaping
                   agentic search platform at{" "}
                   <span className="text-blue-200 font-medium">Wizerr AI</span>,
                   in a high growth startup environment.
@@ -745,9 +742,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Engineered a{" "}
-                    <span className="text-blue-200 font-semibold">
-                      hybrid
-                    </span>{" "}
+                    <span className="text-blue-200 font-semibold">hybrid</span>{" "}
                     RAG system that blended structured metadata with semantic
                     search for rich historical queries.
                   </p>
@@ -880,9 +875,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Owned{" "}
-                    <span className="text-blue-200 font-semibold">
-                      product
-                    </span>{" "}
+                    <span className="text-blue-200 font-semibold">product</span>{" "}
                     strategy and delivery, bridging technical teams with
                     business stakeholders.
                   </p>
