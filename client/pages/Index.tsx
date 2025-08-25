@@ -947,6 +947,15 @@ export default function Index() {
                     </h5>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Pandas
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        NumPy
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Scikit-Learn
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
                         Spark
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
@@ -959,7 +968,13 @@ export default function Index() {
                         Tableau
                       </span>
                       <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
-                        Pandas
+                        Matplotlib
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Seaborn
+                      </span>
+                      <span className="bg-cyan-500/20 text-white px-3 py-1 rounded-full text-sm">
+                        Jupyter
                       </span>
                     </div>
                   </div>
@@ -1079,7 +1094,7 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="text-cyan-400 text-sm hover:text-cyan-300 transition-colors"
                 >
-                  View Publication →
+                  View Publication ��
                 </a>
               </div>
             </div>
