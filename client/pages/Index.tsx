@@ -898,11 +898,7 @@ export default function Index() {
                   </p>
                   <div className="bg-emerald-500/10 rounded-lg p-4 border-l-4 border-emerald-400">
                     <p className="text-emerald-300 font-medium text-sm">
-                      🏆 Received spot awards for{" "}
-                      <span className="text-blue-200 font-semibold">critical thinking</span>{" "}
-                      and{" "}
-                      <span className="text-blue-200 font-semibold">exemplary performance</span>{" "}
-                      for two consecutive quarters [Q1, Q2 2021].
+                      🏆 Received spot awards for critical thinking and exemplary performance for two consecutive quarters [Q1, Q2 2021].
                     </p>
                   </div>
                 </div>
