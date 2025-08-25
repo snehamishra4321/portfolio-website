@@ -864,7 +864,7 @@ export default function Index() {
                 <div className="space-y-4">
                   <p className="text-white/80 leading-relaxed">
                     Led development of{" "}
-                    <span className="text-emerald-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       enterprise-scale
                     </span>{" "}
                     analytics platforms, powering insights for 2M+ global users
@@ -872,7 +872,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Built{" "}
-                    <span className="text-emerald-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       end-to-end
                     </span>{" "}
                     data pipelines to process and serve large-scale client
@@ -880,7 +880,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Owned{" "}
-                    <span className="text-emerald-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       product
                     </span>{" "}
                     strategy and delivery, bridging technical teams with
@@ -888,7 +888,7 @@ export default function Index() {
                   </p>
                   <p className="text-white/80 leading-relaxed">
                     Drove{" "}
-                    <span className="text-emerald-400 font-semibold">
+                    <span className="text-blue-200 font-semibold">
                       enterprise
                     </span>{" "}
                     application rollouts, ensuring performance, scalability, and
