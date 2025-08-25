@@ -5,10 +5,9 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => {
-  const isGitHubPages =
-    process.env.GITHUB_ACTIONS === "true" || command === "build";
+  // With custom domain, always use root path
   return {
-    base: isGitHubPages ? "/portfolio-website/" : "/",
+    base: "/",
     server: {
       host: "::",
       port: 8080,
